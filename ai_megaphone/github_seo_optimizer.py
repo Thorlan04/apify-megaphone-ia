@@ -145,9 +145,31 @@ def update_repository_topics(repo_name: str, topics: List[str], token: str) -> b
         return False
 
 
+def get_github_token() -> str:
+    """Retrieves GitHub token from GITHUB_TOKEN env or local git credential helper in memory."""
+    token = os.getenv("GITHUB_TOKEN", "").strip()
+    if token:
+        return token
+    try:
+        import subprocess
+        proc = subprocess.run(
+            ["git", "credential", "fill"],
+            input="protocol=https\nhost=github.com\n\n",
+            text=True,
+            capture_output=True,
+            timeout=5
+        )
+        for line in proc.stdout.splitlines():
+            if line.startswith("password="):
+                return line.split("=", 1)[1].strip()
+    except Exception:
+        pass
+    return ""
+
+
 def optimize_github_seo() -> Dict[str, Any]:
     """Applies curated SEO topics, descriptions, and homepages across discovered repositories."""
-    token = os.getenv("GITHUB_TOKEN")
+    token = get_github_token()
     if not token:
         logger.info("No GITHUB_TOKEN provided. Skipping repository API updates (normal in local mode).")
         return {
@@ -170,6 +192,12 @@ def optimize_github_seo() -> Dict[str, Any]:
         data = build_ecosystem(verify_online=False)
         repos = data.get("github_repositories", [])
 
+    actor_homepages = {
+        "eu-b2b-compliance-ai-auditor": "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
+        "apify-b2b-autopilot-pack": "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
+        "shopify-fast-catalog-products-json": "https://apify.com/thorlan04/shopify-fast-catalog-products-json",
+    }
+
     results = {}
     for r in repos:
         name = r.get("name")
@@ -180,9 +208,11 @@ def optimize_github_seo() -> Dict[str, Any]:
         combined = list(dict.fromkeys(topics_to_set + existing))
 
         desc = r.get("description", "")
-        homepage = r.get("pages_url") or "https://thorlan04.github.io/apify-megaphone-ia/"
+        homepage = actor_homepages.get(name) or r.get("pages_url") or "https://thorlan04.github.io/apify-megaphone-ia/"
 
-        update_repository_metadata(name, desc, homepage, token=token)
+        meta_ok = update_repository_metadata(name, desc, homepage, token=token)
+        if meta_ok:
+            logger.info(f"Updated description & homepage for {name} -> {homepage}")
         success = update_repository_topics(name, combined, token=token)
         results[name] = {"success": success, "topics": combined}
 

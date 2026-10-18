@@ -719,11 +719,23 @@ def build_and_save_manifests() -> Dict[str, str]:
     llms_full_path.write_text(llms_full_txt, encoding="utf-8")
     generated["docs/llms-full.txt"] = str(llms_full_path)
 
-    # 3. docs/.well-known/mcp.json
+    # 3. docs/.well-known/mcp.json and docs/mcp.json direct mirror
     mcp_manifest = generate_mcp_manifest(eco)
     mcp_path = WELL_KNOWN_DIR / "mcp.json"
-    mcp_path.write_text(json.dumps(mcp_manifest, indent=2), encoding="utf-8")
+    mcp_json_str = json.dumps(mcp_manifest, indent=2)
+    mcp_path.write_text(mcp_json_str, encoding="utf-8")
     generated["docs/.well-known/mcp.json"] = str(mcp_path)
+
+    # Direct mirror for clients not supporting hidden dot-dirs
+    mcp_direct_path = DOCS_DIR / "mcp.json"
+    mcp_direct_path.write_text(mcp_json_str, encoding="utf-8")
+    generated["docs/mcp.json"] = str(mcp_direct_path)
+
+    # .nojekyll to prevent GitHub Pages Jekyll from ignoring .well-known
+    nojekyll_path = DOCS_DIR / ".nojekyll"
+    nojekyll_path.write_text("# Disable Jekyll to serve dot-folders\n", encoding="utf-8")
+    (REPO_ROOT / ".nojekyll").write_text("# Disable Jekyll\n", encoding="utf-8")
+    generated["docs/.nojekyll"] = str(nojekyll_path)
 
     # 4. docs/ai-plugin.json
     plugin_manifest = generate_ai_plugin_manifest(eco)

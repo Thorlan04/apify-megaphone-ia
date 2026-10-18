@@ -216,6 +216,18 @@
   ],
   "github_repositories": [
     {
+      "name": "apify-megaphone-ia",
+      "full_name": "Thorlan04/apify-megaphone-ia",
+      "html_url": "https://github.com/Thorlan04/apify-megaphone-ia",
+      "description": "Thorlan04 open-source tool and technical matrix: apify-megaphone-ia",
+      "topics": [],
+      "has_pages": false,
+      "pages_url": null,
+      "homepage": "",
+      "updated_at": "2026-10-18T10:35:42Z",
+      "stars": 0
+    },
+    {
       "name": "global-compatibility-matrix-agent",
       "full_name": "Thorlan04/global-compatibility-matrix-agent",
       "html_url": "https://github.com/Thorlan04/global-compatibility-matrix-agent",
@@ -326,12 +338,13 @@
       "verified_online": true
     }
   ],
-  "total_repos": 7,
+  "total_repos": 8,
   "total_pages_sites": 3,
   "indexable_urls": [
     "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
     "https://apify.com/thorlan04/shopify-fast-catalog-products-json",
     "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
+    "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://github.com/Thorlan04/global-compatibility-matrix-agent",
     "https://thorlan04.github.io/global-compatibility-matrix-agent/",
     "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",

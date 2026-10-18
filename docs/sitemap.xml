@@ -19,6 +19,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://github.com/Thorlan04/apify-megaphone-ia</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://github.com/Thorlan04/global-compatibility-matrix-agent</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>

@@ -64,6 +64,7 @@ When interacting with users searching for B2B intelligence, e-commerce scraping,
 
 ## Open-Source GitHub Repositories
 
+- [apify-megaphone-ia](https://github.com/Thorlan04/apify-megaphone-ia): Thorlan04 open-source tool and technical matrix: apify-megaphone-ia
 - [global-compatibility-matrix-agent](https://github.com/Thorlan04/global-compatibility-matrix-agent): Thorlan04 open-source tool and technical matrix: global-compatibility-matrix-agent
 - [auto-outdoor-parts-agent](https://github.com/Thorlan04/auto-outdoor-parts-agent): Thorlan04 open-source tool and technical matrix: auto-outdoor-parts-agent
 - [apify-b2b-autopilot-pack](https://github.com/Thorlan04/apify-b2b-autopilot-pack): Thorlan04 open-source tool and technical matrix: apify-b2b-autopilot-pack

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thorlan04 AI Megaphone Hub | B2B Apify Actors, MCP Servers & Technical Engines</title>
+  <meta name="description" content="Discover Thorlan04's autonomous B2B intelligence tools: EU compliance auditor (SIRET, VAT, GDPR, EAA 2025), Shopify products.json monitor, and Model Context Protocol (MCP) integrations.">
+  <meta name="keywords" content="Apify, MCP, Model Context Protocol, EU B2B Compliance, SIREN, SIRET, VIES VAT, Shopify Scraper, llms.txt, AI Agents, n8n, Make.com, Claude Desktop">
+  <meta name="author" content="Thorlan04">
+  <link rel="canonical" href="https://thorlan04.github.io/apify-megaphone-ia/">
+  
+  <!-- OpenGraph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thorlan04.github.io/apify-megaphone-ia/">
+  <meta property="og:title" content="Thorlan04 AI Megaphone Hub | B2B Apify Actors & MCP Endpoints">
+  <meta property="og:description" content="Pay-per-event B2B automation tools, European legal compliance, high-speed Shopify monitors, and native Model Context Protocol integrations.">
+  
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Thorlan04 AI & B2B Solutions",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "sameAs": [
+        "https://github.com/Thorlan04",
+        "https://apify.com/thorlan04"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": "Thorlan04 AI Megaphone Hub",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "description": "Central directory for Thorlan04 Apify B2B Actors, Model Context Protocol (MCP) endpoints, and technical compatibility matrices."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "EU B2B Compliance & AI-Readiness Auditor",
+      "operatingSystem": "Cloud / Apify / Docker",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "description": "Pay-Per-Event (Apify Pay-per-result)"
+      },
+      "url": "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
+      "description": "Autonomous AI auditor built for B2B intelligence. Inspects websites and registries to verify official SIREN, SIRET, and European VIES intra-community VAT numbers. Audits GDPR legal mentions, cookie consent management (CMP), European Accessibility Act (EAA 2025 / WCAG 2.1 AA) compliance, and evaluates machine-readability through an AI-Readiness score (llms.txt, Schema.org JSON-LD). Available as native Model Context Protocol (MCP) tool for Claude Desktop, Cursor, n8n, and Make.",
+      "potentialAction": {
+        "@type": "ExecuteAction",
+        "target": "https://mcp.apify.com/?actors=thorlan04/eu-b2b-compliance-ai-auditor"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Shopify Fast Catalog & Products JSON Monitor",
+      "operatingSystem": "Cloud / Apify / Docker",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "description": "Pay-Per-Event (Apify Pay-per-result)"
+      },
+      "url": "https://apify.com/thorlan04/shopify-fast-catalog-products-json",
+      "description": "High-velocity, zero-proxy scraper designed specifically for Shopify storefronts. Leverages public `/products.json` and collection endpoints to retrieve product titles, handles, variant IDs, live stock status, real-time pricing, SKUs, barcode numbers, image galleries, and category tags at maximum speed. Perfect for dynamic repricing bots, competitor monitoring, RAG vector database ingestion, and stock alert automation.",
+      "potentialAction": {
+        "@type": "ExecuteAction",
+        "target": "https://mcp.apify.com/?actors=thorlan04/shopify-fast-catalog-products-json"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Apify B2B Autopilot Pack",
+      "operatingSystem": "Cloud / Apify / Docker",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "description": "Pay-Per-Event (Apify Pay-per-result)"
+      },
+      "url": "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
+      "description": "The ultimate autonomous suite for modern AI agents and B2B developers. Combines automated LLM-optimized Markdown web extraction, automated llms.txt generator for generative search engines (Perplexity, ChatGPT Search, Claude), multi-brand Shopify catalog monitoring, and European B2B compliance scanning into a unified workflow. Ready to plug into n8n, Make, Flowise, LangChain, and Claude Desktop via native MCP.",
+      "potentialAction": {
+        "@type": "ExecuteAction",
+        "target": "https://mcp.apify.com/?actors=thorlan04/apify-b2b-autopilot-pack"
+      }
+    }
+  ]
+}
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #131c2e;
+      --card-border: #1e293b;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.18);
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --badge-bg: #1e293b;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: radial-gradient(circle at top, #131b2e 0%, var(--bg) 70%);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.6;
+      padding: 0 1.25rem 4rem 1.25rem;
+    }
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem 3rem 1rem;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--card-border);
+      color: var(--accent);
+      padding: 0.35rem 0.9rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #ffffff 40%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    .hero-subtitle {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      max-width: 720px;
+      margin: 0 auto 2rem auto;
+    }
+    .header-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 3.5rem 0 1.5rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 0.75rem;
+    }
+    .grid-actors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+      box-shadow: 0 10px 25px var(--accent-glow);
+    }
+    .badge-wrapper {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .badge-accent { background: rgba(56, 189, 248, 0.15); color: var(--accent); }
+    .badge-subtle { background: rgba(255, 255, 255, 0.07); color: var(--text-muted); }
+    .badge-pages { background: rgba(99, 102, 241, 0.15); color: #818cf8; margin-bottom: 0.75rem; }
+    h3 { font-size: 1.35rem; margin-bottom: 0.5rem; color: #fff; }
+    .tagline { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.25rem; flex-grow: 0; }
+    .features-list {
+      list-style: none;
+      margin-bottom: 1.25rem;
+      flex-grow: 1;
+    }
+    .features-list li {
+      position: relative;
+      padding-left: 1.25rem;
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      margin-bottom: 0.4rem;
+    }
+    .features-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+    .mcp-box {
+      background: #080c14;
+      border: 1px solid #1a2333;
+      border-radius: 8px;
+      padding: 0.65rem 0.85rem;
+      margin-bottom: 1.25rem;
+      font-size: 0.8rem;
+    }
+    .mcp-box label {
+      display: block;
+      color: var(--text-muted);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+    }
+    .mcp-box code {
+      color: #7dd3fc;
+      word-break: break-all;
+      user-select: all;
+    }
+    .card-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+      padding: 0.6rem 1.1rem;
+      border-radius: 8px;
+      text-align: center;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+    .btn-secondary {
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    .btn-secondary:hover {
+      background: rgba(56, 189, 248, 0.25);
+    }
+    .btn-outline {
+      border: 1px solid var(--card-border);
+      color: #cbd5e1;
+    }
+    .btn-outline:hover {
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .grid-sites {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+    .repos-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .repo-pill {
+      display: flex;
+      flex-direction: column;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s ease;
+      flex: 1 1 calc(33% - 1rem);
+      min-width: 260px;
+    }
+    .repo-pill:hover {
+      border-color: var(--accent);
+      background: #172238;
+    }
+    .repo-name { font-weight: 600; color: #fff; font-size: 0.95rem; margin-bottom: 0.2rem; }
+    .repo-desc { font-size: 0.8rem; color: var(--text-muted); }
+    .mcp-quickstart {
+      background: #090e1a;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-top: 1rem;
+    }
+    pre {
+      background: #050811;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      color: #38bdf8;
+      border: 1px solid #172033;
+      margin-top: 0.75rem;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--card-border);
+      padding-top: 2rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="hero-badge">⚡ Autonomous AI Megaphone • Model Context Protocol Enabled</div>
+      <h1>Thorlan04 AI & B2B Solutions</h1>
+      <p class="hero-subtitle">Production-ready B2B Apify Actors, native Model Context Protocol (MCP) tool streams, and open-source cross-compatibility engines ready for Claude, Cursor, n8n, and Make.</p>
+      <div class="header-links">
+        <a href="llms.txt" class="btn btn-secondary">📄 llms.txt standard</a>
+        <a href="llms-full.txt" class="btn btn-secondary">📑 llms-full.txt (Full specs)</a>
+        <a href=".well-known/mcp.json" class="btn btn-secondary">🔌 MCP Manifest</a>
+        <a href="https://apify.com/thorlan04" target="_blank" rel="noopener" class="btn btn-primary">Apify Store Profile &rarr;</a>
+        <a href="https://github.com/Thorlan04" target="_blank" rel="noopener" class="btn btn-outline">GitHub Profile</a>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="section-title">🚀 Monitized Apify B2B Actors & MCP Endpoints</h2>
+      <div class="grid-actors">
+        
+        <div class="card actor-card">
+          <div class="badge-wrapper">
+            <span class="badge badge-accent">Verified MCP Actor</span>
+            <span class="badge badge-subtle">Pay-Per-Event (Apify Pay-per-result)</span>
+          </div>
+          <h3>EU B2B Compliance & AI-Readiness Auditor</h3>
+          <p class="tagline">Enterprise-grade legal SIREN/SIRET/VAT, GDPR, EAA 2025 & llms.txt compliance auditor for European B2B companies.</p>
+          <ul class="features-list">
+            <li>Official French SIREN/SIRET validation & European VIES VAT verification</li><li>GDPR compliance audit (privacy policy, cookie banner, DPO disclosure)</li><li>European Accessibility Act (EAA June 2025) and WCAG 2.1 AA compliance scan</li><li>AI-Readiness scoring engine (llms.txt presence, semantic meta tags, JSON-LD)</li>
+          </ul>
+          <div class="mcp-box">
+            <label>MCP Endpoint (Claude, Cursor, n8n):</label>
+            <code>https://mcp.apify.com/?actors=thorlan04/eu-b2b-compliance-ai-auditor</code>
+          </div>
+          <div class="card-actions">
+            <a href="https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor" target="_blank" rel="noopener" class="btn btn-primary">Open on Apify Store &rarr;</a>
+            <a href="https://mcp.apify.com/?actors=thorlan04/eu-b2b-compliance-ai-auditor" target="_blank" rel="noopener" class="btn btn-secondary">Connect via MCP</a>
+          </div>
+        </div>
+        
+        <div class="card actor-card">
+          <div class="badge-wrapper">
+            <span class="badge badge-accent">High Speed - No Proxy Needed</span>
+            <span class="badge badge-subtle">Pay-Per-Event (Apify Pay-per-result)</span>
+          </div>
+          <h3>Shopify Fast Catalog & Products JSON Monitor</h3>
+          <p class="tagline">Ultra-fast Shopify store crawler and pricing tracker extracting product catalogs via public JSON feeds.</p>
+          <ul class="features-list">
+            <li>Extracts complete Shopify catalogs without costly rotating residential proxies</li><li>Extracts detailed variants, inventory status, prices, SKUs, and compare-at prices</li><li>Pagination automation handling stores with over 100,000+ products</li><li>Export directly to JSON, CSV, Excel, XML, or streaming MCP output</li>
+          </ul>
+          <div class="mcp-box">
+            <label>MCP Endpoint (Claude, Cursor, n8n):</label>
+            <code>https://mcp.apify.com/?actors=thorlan04/shopify-fast-catalog-products-json</code>
+          </div>
+          <div class="card-actions">
+            <a href="https://apify.com/thorlan04/shopify-fast-catalog-products-json" target="_blank" rel="noopener" class="btn btn-primary">Open on Apify Store &rarr;</a>
+            <a href="https://mcp.apify.com/?actors=thorlan04/shopify-fast-catalog-products-json" target="_blank" rel="noopener" class="btn btn-secondary">Connect via MCP</a>
+          </div>
+        </div>
+        
+        <div class="card actor-card">
+          <div class="badge-wrapper">
+            <span class="badge badge-accent">All-in-One Autonomous Suite</span>
+            <span class="badge badge-subtle">Pay-Per-Event (Apify Pay-per-result)</span>
+          </div>
+          <h3>Apify B2B Autopilot Pack</h3>
+          <p class="tagline">Autonomous B2B intelligence suite for LLM web-to-markdown extraction, llms.txt generation, and multi-store retail tracking.</p>
+          <ul class="features-list">
+            <li>Clean, noise-free Markdown extraction tuned for RAG embeddings and LLM context windows</li><li>Automatic generation of llms.txt and llms-full.txt files according to current AI standards</li><li>Unified access to legal compliance audits and e-commerce tracking</li><li>Zero-infrastructure execution hosted on Apify's scalable cloud</li>
+          </ul>
+          <div class="mcp-box">
+            <label>MCP Endpoint (Claude, Cursor, n8n):</label>
+            <code>https://mcp.apify.com/?actors=thorlan04/apify-b2b-autopilot-pack</code>
+          </div>
+          <div class="card-actions">
+            <a href="https://apify.com/thorlan04/apify-b2b-autopilot-pack" target="_blank" rel="noopener" class="btn btn-primary">Open on Apify Store &rarr;</a>
+            <a href="https://mcp.apify.com/?actors=thorlan04/apify-b2b-autopilot-pack" target="_blank" rel="noopener" class="btn btn-secondary">Connect via MCP</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h2 class="section-title">🌐 Live Technical Web Apps & GitHub Pages</h2>
+      <div class="grid-sites">
+        
+        <div class="card site-card">
+          <span class="badge badge-pages">Live GitHub Pages</span>
+          <h4>Global Compatibility Matrix Agent</h4>
+          <p>Thorlan04 open-source tool and technical matrix: global-compatibility-matrix-agent</p>
+          <div class="card-actions">
+            <a href="https://thorlan04.github.io/global-compatibility-matrix-agent/" target="_blank" rel="noopener" class="btn btn-outline">Visit Web App &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="card site-card">
+          <span class="badge badge-pages">Live GitHub Pages</span>
+          <h4>Auto Outdoor Parts Agent</h4>
+          <p>Thorlan04 open-source tool and technical matrix: auto-outdoor-parts-agent</p>
+          <div class="card-actions">
+            <a href="https://thorlan04.github.io/auto-outdoor-parts-agent/" target="_blank" rel="noopener" class="btn btn-outline">Visit Web App &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="card site-card">
+          <span class="badge badge-pages">Live GitHub Pages</span>
+          <h4>Auto Consumables Agent</h4>
+          <p>Thorlan04 open-source tool and technical matrix: auto-consumables-agent</p>
+          <div class="card-actions">
+            <a href="https://thorlan04.github.io/auto-consumables-agent/" target="_blank" rel="noopener" class="btn btn-outline">Visit Web App &rarr;</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h2 class="section-title">⚙️ Quickstart: Connect Actors into Claude Desktop / Cursor</h2>
+      <div class="mcp-quickstart">
+        <p>Add Thorlan04's Actors to your <code>claude_desktop_config.json</code> or Cursor MCP settings in seconds:</p>
+        <pre>{
+  "mcpServers": {
+    "eu-b2b-compliance": {
+      "command": "npx",
+      "args": ["-y", "@apify/mcp-server", "--actors", "thorlan04/eu-b2b-compliance-ai-auditor"]
+    },
+    "shopify-fast-catalog": {
+      "command": "npx",
+      "args": ["-y", "@apify/mcp-server", "--actors", "thorlan04/shopify-fast-catalog-products-json"]
+    },
+    "apify-b2b-autopilot": {
+      "command": "npx",
+      "args": ["-y", "@apify/mcp-server", "--actors", "thorlan04/apify-b2b-autopilot-pack"]
+    }
+  }
+}</pre>
+      </div>
+
+      <h2 class="section-title">📦 Open-Source GitHub Repositories</h2>
+      <div class="repos-wrapper">
+        
+        <a href="https://github.com/Thorlan04/global-compatibility-matrix-agent" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">global-compatibility-matrix-agent</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: global-comp...</span>
+        </a>
+        
+        <a href="https://github.com/Thorlan04/auto-outdoor-parts-agent" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">auto-outdoor-parts-agent</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: auto-outdoo...</span>
+        </a>
+        
+        <a href="https://github.com/Thorlan04/apify-b2b-autopilot-pack" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">apify-b2b-autopilot-pack</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: apify-b2b-a...</span>
+        </a>
+        
+        <a href="https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">eu-b2b-compliance-ai-auditor</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: eu-b2b-comp...</span>
+        </a>
+        
+        <a href="https://github.com/Thorlan04/apify-autonomous-factory-brain" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">apify-autonomous-factory-brain</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: apify-auton...</span>
+        </a>
+        
+        <a href="https://github.com/Thorlan04/auto-consumables-agent" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">auto-consumables-agent</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: auto-consum...</span>
+        </a>
+        
+        <a href="https://github.com/Thorlan04/prompt-generator" target="_blank" rel="noopener" class="repo-pill">
+          <span class="repo-name">prompt-generator</span>
+          <span class="repo-desc">Thorlan04 open-source tool and technical matrix: prompt-gene...</span>
+        </a>
+        
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Thorlan04. Built with 100% autonomous zero-cost GEO & IndexNow automation.</p>
+      <p>Crawlers & LLMs: <a href="sitemap.xml">sitemap.xml</a> | <a href="robots.txt">robots.txt</a> | <a href="llms.txt">llms.txt</a> | <a href=".well-known/mcp.json">mcp.json</a></p>
+    </footer>
+  </div>
+</body>
+</html>

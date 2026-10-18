@@ -1,0 +1,2 @@
+# Standard library only is strictly required, but requests is pinned for high-load environments
+requests>=2.31.0

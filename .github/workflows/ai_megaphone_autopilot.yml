@@ -1,0 +1,66 @@
+name: AI Megaphone Autopilot (GEO, MCP & IndexNow)
+
+on:
+  schedule:
+    # Runs every Monday and Thursday at 05:00 UTC
+    - cron: '0 5 * * 1,4'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'ai_megaphone/**'
+      - '.github/workflows/ai_megaphone_autopilot.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-megaphone-autopilot
+  cancel-in-progress: false
+
+jobs:
+  broadcast-and-sync:
+    name: Run AI Megaphone Broadcast & Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Execute Autonomous AI Megaphone Pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: "Thorlan04"
+        run: |
+          python ai_megaphone/run_megaphone.py
+
+      - name: Commit and Push Updated Manifests & Ecosystem Cache
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage manifests, caches and keys
+          git add docs/ ai_megaphone/discovered_ecosystem.json ai_megaphone/syndication_log.json ai_megaphone/telegraph_token.json llms.txt robots.txt *.txt || true
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes detected. Working tree clean."
+          else
+            git commit -m "chore(megaphone): automated GEO manifests & IndexNow broadcast update [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          fi

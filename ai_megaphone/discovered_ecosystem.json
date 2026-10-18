@@ -376,30 +376,6 @@
   ],
   "github_repositories": [
     {
-      "name": "auto-consumables-agent",
-      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
-      "full_name": "Thorlan04/auto-consumables-agent",
-      "html_url": "https://github.com/Thorlan04/auto-consumables-agent",
-      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
-      "keywords": [
-        "automotive consumables matrix",
-        "car maintenance parts finder",
-        "filter oil brake cross-reference",
-        "vehicle compatibility tool"
-      ],
-      "topics": [
-        "automotive-consumables-matrix",
-        "car-maintenance-parts-finder",
-        "filter-oil-brake-cross-reference",
-        "vehicle-compatibility-tool"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/auto-consumables-agent/",
-      "homepage": "",
-      "updated_at": "2026-10-18T10:42:22Z",
-      "stars": 0
-    },
-    {
       "name": "apify-megaphone-ia",
       "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
       "full_name": "Thorlan04/apify-megaphone-ia",
@@ -422,7 +398,31 @@
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "homepage": "",
-      "updated_at": "2026-10-18T10:40:43Z",
+      "updated_at": "2026-10-18T12:11:27Z",
+      "stars": 0
+    },
+    {
+      "name": "auto-consumables-agent",
+      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
+      "full_name": "Thorlan04/auto-consumables-agent",
+      "html_url": "https://github.com/Thorlan04/auto-consumables-agent",
+      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
+      "keywords": [
+        "automotive consumables matrix",
+        "car maintenance parts finder",
+        "filter oil brake cross-reference",
+        "vehicle compatibility tool"
+      ],
+      "topics": [
+        "automotive-consumables-matrix",
+        "car-maintenance-parts-finder",
+        "filter-oil-brake-cross-reference",
+        "vehicle-compatibility-tool"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/auto-consumables-agent/",
+      "homepage": "",
+      "updated_at": "2026-10-18T10:42:22Z",
       "stars": 0
     },
     {
@@ -578,20 +578,6 @@
   ],
   "github_pages_sites": [
     {
-      "repo_name": "auto-consumables-agent",
-      "url": "https://thorlan04.github.io/auto-consumables-agent/",
-      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
-      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
-      "keywords": [
-        "automotive consumables matrix",
-        "car maintenance parts finder",
-        "filter oil brake cross-reference",
-        "vehicle compatibility tool"
-      ],
-      "sitemap_url": "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
-      "verified_online": true
-    },
-    {
       "repo_name": "apify-megaphone-ia",
       "url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
@@ -604,6 +590,20 @@
         "Apify B2B tools"
       ],
       "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "auto-consumables-agent",
+      "url": "https://thorlan04.github.io/auto-consumables-agent/",
+      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
+      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
+      "keywords": [
+        "automotive consumables matrix",
+        "car maintenance parts finder",
+        "filter oil brake cross-reference",
+        "vehicle compatibility tool"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
       "verified_online": true
     },
     {
@@ -660,10 +660,10 @@
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/b2b-rag-markdown-extractor-n8n-make.md",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.html",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.md",
+    "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://github.com/Thorlan04/auto-consumables-agent",
     "https://thorlan04.github.io/auto-consumables-agent/",
     "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
-    "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
     "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
     "https://github.com/Thorlan04/global-compatibility-matrix-agent",

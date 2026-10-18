@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """
-indexnow_broadcaster.py - Autonomous IndexNow & Open Archival Broadcaster
-Part of ai_megaphone for Thorlan04
+indexnow_broadcaster.py - Autonomous IndexNow (Central + Bing/ChatGPT) & Open Archival Broadcaster
+Part of ai_megaphone v2.0 for Thorlan04
 
 1. Generates and manages the deterministic IndexNow API Key verification file (docs/<key>.txt)
-2. Submits all GitHub Pages and Hub URLs to https://api.indexnow.org/indexnow (Bing, ChatGPT Search, Copilot, Yandex)
-3. Pings Archive.org Wayback Machine Save API with Apify Store and Hub URLs to create public authority citations & force crawler indexing.
+2. Broadcasts all Hub & GEO Solution URLs (.html & .md) simultaneously to:
+   - https://api.indexnow.org/indexnow
+   - https://www.bing.com/indexnow (Direct feed for ChatGPT Search & Microsoft Copilot)
+   - https://yandex.com/indexnow
+3. Pings Archive.org Wayback Machine Save API with Apify Store, Hub, and Telegraph URLs.
 Cost: 0 €
 """
 
@@ -13,7 +16,6 @@ import hashlib
 import json
 import logging
 import os
-import sys
 import time
 import urllib.request
 import urllib.error
@@ -31,8 +33,13 @@ BASE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = BASE_DIR.parent
 DOCS_DIR = REPO_ROOT / "docs"
 DISCOVERED_CACHE = BASE_DIR / "discovered_ecosystem.json"
+SYNDICATION_LOG = BASE_DIR / "syndication_log.json"
 
-INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow"
+INDEXNOW_ENDPOINTS = [
+    "https://api.indexnow.org/indexnow",
+    "https://www.bing.com/indexnow",
+    "https://yandex.com/indexnow"
+]
 ARCHIVE_ORG_SAVE_ENDPOINT = "https://web.archive.org/save/"
 HOST_NAME = "thorlan04.github.io"
 
@@ -40,17 +47,15 @@ HOST_NAME = "thorlan04.github.io"
 def get_or_create_indexnow_key() -> str:
     """
     Returns a persistent 32-character hexadecimal IndexNow key.
-    Writes key file to docs/<key>.txt so search engines can verify host ownership.
+    Writes key file to docs/<key>.txt and root <key>.txt.
     """
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
-    # Check if key file already exists
     for p in DOCS_DIR.glob("*.txt"):
         name = p.stem
         if len(name) == 32 and all(c in "0123456789abcdef" for c in name.lower()):
             logger.info(f"Using existing IndexNow key file: {p.name}")
             return name
 
-    # Deterministic generation based on user and secret salt
     salt = os.getenv("INDEXNOW_SALT", "thorlan04-b2b-mcp-megaphone-2026")
     key = hashlib.md5(f"thorlan04:{salt}".encode("utf-8")).hexdigest()
 
@@ -62,13 +67,12 @@ def get_or_create_indexnow_key() -> str:
 
 
 def broadcast_to_indexnow(urls: List[str], key: str, host: str = HOST_NAME) -> Dict[str, Any]:
-    """Submits GitHub Pages URLs to the central IndexNow API."""
-    # IndexNow protocol requires submitted URLs to be within the key's directory hierarchy
+    """Submits Hub and GEO Solution URLs to Central IndexNow, Bing (ChatGPT Search), and Yandex."""
     scope_prefix = f"https://{host}/apify-megaphone-ia"
     filtered_urls = [u for u in urls if u.startswith(scope_prefix)]
     if not filtered_urls:
         logger.warning(f"No URLs matching scope {scope_prefix} found to submit to IndexNow.")
-        return {"status": "skipped", "count": 0}
+        return {"status": "skipped", "count": 0, "message": "No matching URLs"}
 
     key_location = f"https://{host}/apify-megaphone-ia/{key}.txt"
 
@@ -80,51 +84,48 @@ def broadcast_to_indexnow(urls: List[str], key: str, host: str = HOST_NAME) -> D
     }
 
     req_data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        INDEXNOW_ENDPOINT,
-        data=req_data,
-        headers={
-            "Content-Type": "application/json; charset=utf-8",
-            "User-Agent": "Thorlan04-IndexNow-Broadcaster/1.0"
-        },
-        method="POST"
-    )
+    endpoint_results = []
+    any_success = False
 
-    result = {
-        "endpoint": INDEXNOW_ENDPOINT,
+    for endpoint in INDEXNOW_ENDPOINTS:
+        req = urllib.request.Request(
+            endpoint,
+            data=req_data,
+            headers={
+                "Content-Type": "application/json; charset=utf-8",
+                "User-Agent": "Thorlan04-IndexNow-Broadcaster/2.0"
+            },
+            method="POST"
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=12) as resp:
+                ok = resp.status in (200, 202)
+                if ok:
+                    any_success = True
+                msg = f"{endpoint} -> HTTP {resp.status} ({len(filtered_urls)} URLs)"
+                logger.info(f"IndexNow broadcast succeeded: {msg}")
+                endpoint_results.append(msg)
+        except urllib.error.HTTPError as e:
+            msg = f"{endpoint} -> HTTP {e.code}"
+            logger.info(f"IndexNow notice: {msg}")
+            endpoint_results.append(msg)
+        except Exception as e:
+            msg = f"{endpoint} -> {e}"
+            logger.info(f"IndexNow notice: {msg}")
+            endpoint_results.append(msg)
+
+    return {
         "submitted_urls": len(filtered_urls),
-        "status_code": None,
-        "success": False,
-        "message": ""
+        "success": any_success,
+        "endpoints": endpoint_results,
+        "message": " | ".join(endpoint_results[:2])
     }
 
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            result["status_code"] = resp.status
-            result["success"] = resp.status in (200, 202)
-            result["message"] = f"IndexNow broadcast succeeded with HTTP {resp.status}"
-            logger.info(result["message"])
-    except urllib.error.HTTPError as e:
-        result["status_code"] = e.code
-        err_msg = e.read().decode("utf-8", errors="ignore")
-        # 422 means key is not yet reachable (e.g. before first GitHub Pages deployment)
-        if e.code == 422:
-            result["message"] = f"IndexNow verification pending (HTTP 422 - will activate once GitHub Pages is deployed)"
-        else:
-            result["message"] = f"HTTP {e.code}: {err_msg[:100]}"
-        logger.info(f"IndexNow status: {result['message']}")
-    except Exception as e:
-        result["message"] = str(e)
-        logger.info(f"IndexNow notice: {e}")
 
-    return result
-
-
-def ping_archive_org(urls: List[str], max_urls: int = 4) -> List[Dict[str, Any]]:
+def ping_archive_org(urls: List[str], max_urls: int = 5) -> List[Dict[str, Any]]:
     """
-    Pings Archive.org Wayback Machine Save API with Apify Store pages and Hub URLs.
-    Forces indexing and establishes historical public backlinks without cost.
-    Uses conservative timeouts (4s) so execution remains snappy.
+    Pings Archive.org Wayback Machine Save API with Apify Store pages, Hub URLs,
+    and Telegraph benchmark articles to create permanent public authority citations.
     """
     results = []
     headers = {
@@ -132,8 +133,7 @@ def ping_archive_org(urls: List[str], max_urls: int = 4) -> List[Dict[str, Any]]
         "Accept": "*/*"
     }
 
-    # Focus priority on Apify Store URLs and the central Hub
-    priority_urls = [u for u in urls if "apify.com" in u or "apify-megaphone-ia" in u][:max_urls]
+    priority_urls = [u for u in urls if "apify.com" in u or "/solutions/" in u][:max_urls]
 
     for target_url in priority_urls:
         save_url = f"{ARCHIVE_ORG_SAVE_ENDPOINT}{target_url}"
@@ -148,18 +148,18 @@ def ping_archive_org(urls: List[str], max_urls: int = 4) -> List[Dict[str, Any]]
             item_res["status_code"] = e.code
             item_res["status"] = f"http_{e.code}"
             logger.info(f"Wayback Machine note for {target_url}: HTTP {e.code}")
-        except Exception as e:
+        except Exception:
             item_res["status"] = "timed_out"
-            logger.info(f"Wayback Machine ping completed for {target_url} (non-blocking)")
+            logger.info(f"Wayback Machine ping queued for {target_url} (non-blocking)")
 
         results.append(item_res)
-        time.sleep(0.5)
+        time.sleep(0.4)
 
     return results
 
 
 def broadcast_all() -> Dict[str, Any]:
-    """Runs key creation, IndexNow submission and archival pings."""
+    """Runs key creation, multi-engine IndexNow submission, and archival pings."""
     key = get_or_create_indexnow_key()
 
     if DISCOVERED_CACHE.exists():
@@ -171,16 +171,15 @@ def broadcast_all() -> Dict[str, Any]:
 
     indexable_urls = eco.get("indexable_urls", [])
 
-    logger.info(f"Starting IndexNow & Archival broadcast for {len(indexable_urls)} ecosystem URLs...")
+    logger.info(f"Starting multi-engine IndexNow & Archival broadcast for {len(indexable_urls)} ecosystem URLs...")
     indexnow_res = broadcast_to_indexnow(indexable_urls, key=key)
     archival_res = ping_archive_org(indexable_urls, max_urls=4)
 
-    summary = {
+    return {
         "indexnow_key": key,
         "indexnow_result": indexnow_res,
         "archival_pings": archival_res
     }
-    return summary
 
 
 if __name__ == "__main__":

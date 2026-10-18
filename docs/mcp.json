@@ -1,30 +1,43 @@
 {
   "$schema": "https://modelcontextprotocol.io/schema/mcp.json",
   "mcpVersion": "2024-11-05",
-  "name": "Thorlan04 B2B Intelligence & E-Commerce MCP Suite",
+  "name": "Thorlan04 EU B2B Compliance, VIES VAT, SIRET & Shopify JSON MCP Suite",
   "vendor": "Thorlan04",
   "website": "https://thorlan04.github.io/apify-megaphone-ia/",
-  "description": "Model Context Protocol tools for EU company legal compliance checks (SIREN/SIRET/VIES VAT/GDPR/EAA 2025), high-speed Shopify JSON catalog monitoring, and automated B2B web-to-markdown RAG extraction.",
+  "description": "Model Context Protocol server suite providing French SIREN/SIRET validation, EU VIES VAT verification, GDPR & EAA 2025 website compliance audits, zero-proxy Shopify products.json catalog monitoring, and clean RAG Markdown extraction.",
   "tools": [
     {
       "name": "audit_eu_b2b_compliance",
-      "description": "Audits a European company website for legal compliance (SIREN, SIRET, VAT VIES), GDPR privacy standards, EAA 2025 accessibility, and AI-Readiness (llms.txt).",
+      "description": "Verifies European company legal identifiers (French SIREN/SIRET, EU VIES VAT) and audits the target domain for GDPR privacy compliance, European Accessibility Act (EAA 2025 / WCAG 2.1 AA) readiness, and llms.txt AI search optimization.",
       "inputSchema": {
         "type": "object",
         "properties": {
           "targetUrl": {
             "type": "string",
-            "description": "The URL of the company website to audit (e.g. https://example.com)."
+            "description": "Company website URL to inspect (e.g. https://www.example.fr)."
+          },
+          "siretOrSiren": {
+            "type": "string",
+            "description": "Optional 9-digit SIREN or 14-digit SIRET number to verify."
+          },
+          "vatNumber": {
+            "type": "string",
+            "description": "Optional EU intra-community VAT number (e.g. FRXX123456789) for VIES validation."
           },
           "checkVies": {
             "type": "boolean",
             "default": true,
-            "description": "Whether to validate VAT numbers against official EU VIES registry."
+            "description": "Validate extracted or provided VAT numbers against the EU VIES registry."
           },
           "checkEaa": {
             "type": "boolean",
             "default": true,
-            "description": "Check European Accessibility Act (EAA 2025) compliance indicators."
+            "description": "Evaluate European Accessibility Act (EAA 2025 / WCAG 2.1 AA) compliance signals."
+          },
+          "checkGdpr": {
+            "type": "boolean",
+            "default": true,
+            "description": "Audit GDPR legal mentions, privacy policy links, and cookie consent banners."
           }
         },
         "required": [
@@ -37,22 +50,22 @@
     },
     {
       "name": "scrape_shopify_catalog_json",
-      "description": "Crawls and extracts full product catalogs, variants, prices, and stock levels from any public Shopify store using high-speed JSON feeds.",
+      "description": "Extracts complete product catalogs, variant pricing, SKUs, and real-time stock availability from any Shopify store using fast public JSON endpoints.",
       "inputSchema": {
         "type": "object",
         "properties": {
           "shopifyStoreUrl": {
             "type": "string",
-            "description": "Base URL of the target Shopify store (e.g. https://store.example.com)."
+            "description": "Base URL of the Shopify store (e.g. https://gymshark.com)."
           },
           "maxProducts": {
             "type": "integer",
             "default": 250,
-            "description": "Maximum number of products to extract."
+            "description": "Maximum number of products to retrieve (supports full pagination)."
           },
           "collection": {
             "type": "string",
-            "description": "Optional specific collection handle to scrape."
+            "description": "Optional Shopify collection handle to filter products."
           }
         },
         "required": [
@@ -65,7 +78,7 @@
     },
     {
       "name": "execute_b2b_autopilot_pipeline",
-      "description": "Runs comprehensive B2B pipeline: extracts clean Markdown, analyzes compliance, monitors e-commerce catalogs, and generates llms.txt manifests.",
+      "description": "Executes an autonomous B2B workflow: clean RAG Markdown extraction, llms.txt manifest generation, EU B2B compliance audit, or Shopify catalog monitoring.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -77,11 +90,11 @@
               "shopify_monitor",
               "llms_manifest"
             ],
-            "description": "The pipeline task to run."
+            "description": "Pipeline execution mode."
           },
           "targetUrl": {
             "type": "string",
-            "description": "Target website URL for extraction, compliance audit, or catalog monitoring."
+            "description": "Target URL to process."
           }
         },
         "required": [

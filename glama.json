@@ -1,0 +1,15 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "Thorlan04"
+  ],
+  "name": "Thorlan04 EU B2B Compliance & Shopify Intelligence MCP Suite",
+  "description": "Verify French SIRET/SIREN & EU VIES VAT numbers, audit websites for GDPR & EAA 2025 accessibility + llms.txt readiness, and monitor Shopify /products.json catalogs without proxies.",
+  "repository": "https://github.com/Thorlan04/apify-megaphone-ia",
+  "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+  "endpoints": [
+    "https://mcp.apify.com/?actors=thorlan04/eu-b2b-compliance-ai-auditor",
+    "https://mcp.apify.com/?actors=thorlan04/shopify-fast-catalog-products-json",
+    "https://mcp.apify.com/?actors=thorlan04/apify-b2b-autopilot-pack"
+  ]
+}

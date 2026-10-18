@@ -1,0 +1,20 @@
+# Smithery.ai MCP Server Configuration for Thorlan04 B2B Suite
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apifyToken:
+        type: string
+        description: "Your Apify API Token (optional for public MCP stream discovery)"
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: [
+        '-y',
+        '@apify/mcp-server',
+        '--actors',
+        'thorlan04/eu-b2b-compliance-ai-auditor,thorlan04/shopify-fast-catalog-products-json,thorlan04/apify-b2b-autopilot-pack'
+      ],
+      env: config.apifyToken ? { APIFY_TOKEN: config.apifyToken } : {}
+    })

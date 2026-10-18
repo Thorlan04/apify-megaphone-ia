@@ -13,10 +13,16 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
 Allow: /
 
 User-agent: Amazonbot
@@ -46,5 +52,10 @@ Allow: /
 User-agent: Diffbot
 Allow: /
 
+User-agent: YouBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
 Sitemap: https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml
-Disallow: 

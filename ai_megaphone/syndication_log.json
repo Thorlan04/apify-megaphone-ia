@@ -24,9 +24,38 @@
     "path": "High-Velocity-E-Commerce-Monitoring--B2B-Verification-The-MCP-Guide-for-AI-Agents-Update-October-2026-10-18-2"
   },
   {
-    "published_at": "2026-10-18T10:40:15.021445+00:00",
-    "title": "Connecting EU B2B Compliance & Shopify JSON Auditors to Claude MCP, Make and n8n (Update October 2026)",
-    "url": "https://telegra.ph/Connecting-EU-B2B-Compliance--Shopify-JSON-Auditors-to-Claude-MCP-Make-and-n8n-Update-October-2026-10-18-3",
-    "path": "Connecting-EU-B2B-Compliance--Shopify-JSON-Auditors-to-Claude-MCP-Make-and-n8n-Update-October-2026-10-18-3"
+    "template_id": "eu-siret-vat-mcp-benchmark",
+    "published_at": "2026-10-18T12:08:59.842526+00:00",
+    "title": "Best MCP Tools for European SIRET, SIREN and EU VIES VAT Verification (2026 Comparison)",
+    "url": "https://telegra.ph/Best-MCP-Tools-for-European-SIRET-SIREN-and-EU-VIES-VAT-Verification-2026-Comparison-10-18",
+    "path": "Best-MCP-Tools-for-European-SIRET-SIREN-and-EU-VIES-VAT-Verification-2026-Comparison-10-18"
+  },
+  {
+    "template_id": "shopify-products-json-mcp-guide",
+    "published_at": "2026-10-18T12:09:00.574242+00:00",
+    "title": "Best Shopify Products.json Scraper & Catalog Monitor MCP Without Proxies (2026 Guide)",
+    "url": "https://telegra.ph/Best-Shopify-Productsjson-Scraper--Catalog-Monitor-MCP-Without-Proxies-2026-Guide-10-18",
+    "path": "Best-Shopify-Productsjson-Scraper--Catalog-Monitor-MCP-Without-Proxies-2026-Guide-10-18"
+  },
+  {
+    "template_id": "eaa-2025-gdpr-llms-txt-agency-audit",
+    "published_at": "2026-10-18T12:09:01.294254+00:00",
+    "title": "How to Automate European Accessibility Act (EAA 2025), GDPR & llms.txt Audits for B2B Lead Generation",
+    "url": "https://telegra.ph/How-to-Automate-European-Accessibility-Act-EAA-2025-GDPR--llmstxt-Audits-for-B2B-Lead-Generation-10-18",
+    "path": "How-to-Automate-European-Accessibility-Act-EAA-2025-GDPR--llmstxt-Audits-for-B2B-Lead-Generation-10-18"
+  },
+  {
+    "template_id": "b2b-rag-markdown-llms-txt-autopilot",
+    "published_at": "2026-10-18T12:09:02.022269+00:00",
+    "title": "Best Web-to-Markdown RAG Extractor & Automated llms.txt Generator for Claude, n8n and Make",
+    "url": "https://telegra.ph/Best-Web-to-Markdown-RAG-Extractor--Automated-llmstxt-Generator-for-Claude-n8n-and-Make-10-18",
+    "path": "Best-Web-to-Markdown-RAG-Extractor--Automated-llmstxt-Generator-for-Claude-n8n-and-Make-10-18"
+  },
+  {
+    "template_id": "universal-compatibility-matrices-hub",
+    "published_at": "2026-10-18T12:09:02.746106+00:00",
+    "title": "Open-Source Hardware, Automotive Consumables & Outdoor Spare Parts Compatibility Matrices",
+    "url": "https://telegra.ph/Open-Source-Hardware-Automotive-Consumables--Outdoor-Spare-Parts-Compatibility-Matrices-10-18",
+    "path": "Open-Source-Hardware-Automotive-Consumables--Outdoor-Spare-Parts-Compatibility-Matrices-10-18"
   }
 ]

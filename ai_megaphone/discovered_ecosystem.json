@@ -389,40 +389,190 @@
         "Apify B2B tools"
       ],
       "topics": [
+        "ai-agents",
+        "apify-actor",
+        "apify-b2b-tools",
+        "claude-desktop",
+        "cursor-ai",
+        "eaa-2025",
+        "gdpr-compliance",
         "generative-engine-optimization",
-        "mcp-tool-registry",
-        "llms.txt-hub",
+        "indexnow",
         "indexnow-automation",
-        "apify-b2b-tools"
+        "llms-txt",
+        "llmstxt-hub",
+        "mcp-server",
+        "mcp-tool-registry",
+        "n8n",
+        "perplexity-seo",
+        "shopify-scraper",
+        "siret-validator",
+        "vies-vat"
       ],
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "homepage": "",
-      "updated_at": "2026-10-18T12:11:27Z",
+      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "updated_at": "2026-10-18T12:15:32Z",
       "stars": 0
     },
     {
-      "name": "auto-consumables-agent",
-      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
-      "full_name": "Thorlan04/auto-consumables-agent",
-      "html_url": "https://github.com/Thorlan04/auto-consumables-agent",
-      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
+      "name": "prompt-generator",
+      "title": "Enterprise AI Prompt Generator & System Instruction Architect",
+      "full_name": "Thorlan04/prompt-generator",
+      "html_url": "https://github.com/Thorlan04/prompt-generator",
+      "description": "Structured prompt engineering toolkit for crafting deterministic system prompts, JSON schema outputs, and multi-agent instructions for Claude, GPT-4o, and Gemini.",
       "keywords": [
-        "automotive consumables matrix",
-        "car maintenance parts finder",
-        "filter oil brake cross-reference",
-        "vehicle compatibility tool"
+        "prompt engineering tool",
+        "system prompt generator",
+        "LLM instruction builder",
+        "structured output prompts"
       ],
       "topics": [
-        "automotive-consumables-matrix",
-        "car-maintenance-parts-finder",
-        "filter-oil-brake-cross-reference",
-        "vehicle-compatibility-tool"
+        "ai-prompts",
+        "chatgpt",
+        "claude",
+        "cursor-ai",
+        "llm-instruction-builder",
+        "llm-tools",
+        "prompt-engineering",
+        "prompt-engineering-tool",
+        "prompt-generator",
+        "structured-output-prompts",
+        "system-prompt-generator"
+      ],
+      "has_pages": false,
+      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "updated_at": "2026-10-18T12:14:26Z",
+      "stars": 0
+    },
+    {
+      "name": "apify-autonomous-factory-brain",
+      "title": "Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine",
+      "full_name": "Thorlan04/apify-autonomous-factory-brain",
+      "html_url": "https://github.com/Thorlan04/apify-autonomous-factory-brain",
+      "description": "Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.",
+      "keywords": [
+        "Apify Actor orchestration",
+        "autonomous agent factory",
+        "MCP server generator",
+        "B2B cloud automation"
+      ],
+      "topics": [
+        "actor-factory",
+        "ai-pipeline",
+        "apify-actor",
+        "apify-actor-orchestration",
+        "automation",
+        "autonomous-agent-factory",
+        "autonomous-agents",
+        "b2b-ai",
+        "b2b-cloud-automation",
+        "mcp-server",
+        "mcp-server-generator"
+      ],
+      "has_pages": false,
+      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "updated_at": "2026-10-18T12:14:25Z",
+      "stars": 0
+    },
+    {
+      "name": "auto-outdoor-parts-agent",
+      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
+      "full_name": "Thorlan04/auto-outdoor-parts-agent",
+      "html_url": "https://github.com/Thorlan04/auto-outdoor-parts-agent",
+      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
+      "keywords": [
+        "outdoor power equipment parts",
+        "lawnmower spare parts matrix",
+        "chainsaw compatibility lookup",
+        "aftermarket part cross-reference"
+      ],
+      "topics": [
+        "aftermarket-part-cross-reference",
+        "chainsaw-compatibility-lookup",
+        "compatibility-matrix",
+        "equipment-matrix",
+        "github-pages",
+        "lawnmower-parts",
+        "lawnmower-spare-parts-matrix",
+        "outdoor-parts",
+        "outdoor-power-equipment-parts",
+        "spare-parts-catalog"
       ],
       "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/auto-consumables-agent/",
-      "homepage": "",
-      "updated_at": "2026-10-18T10:42:22Z",
+      "pages_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+      "homepage": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+      "updated_at": "2026-10-18T12:14:23Z",
+      "stars": 0
+    },
+    {
+      "name": "global-compatibility-matrix-agent",
+      "title": "Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference",
+      "full_name": "Thorlan04/global-compatibility-matrix-agent",
+      "html_url": "https://github.com/Thorlan04/global-compatibility-matrix-agent",
+      "description": "Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.",
+      "keywords": [
+        "hardware compatibility matrix",
+        "spare parts cross-reference",
+        "OEM replacement finder",
+        "technical compatibility database"
+      ],
+      "topics": [
+        "catalog-engine",
+        "compatibility-matrix",
+        "cross-reference",
+        "github-pages",
+        "hardware-compatibility",
+        "hardware-compatibility-matrix",
+        "oem-replacement-finder",
+        "open-data",
+        "parts-finder",
+        "spare-parts-cross-reference",
+        "technical-compatibility-database"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
+      "homepage": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
+      "updated_at": "2026-10-18T12:14:22Z",
+      "stars": 0
+    },
+    {
+      "name": "apify-b2b-autopilot-pack",
+      "title": "Apify B2B Autopilot Pack (Clean RAG Markdown, llms.txt & E-Commerce Intelligence)",
+      "full_name": "Thorlan04/apify-b2b-autopilot-pack",
+      "html_url": "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
+      "description": "All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).",
+      "keywords": [
+        "web to markdown RAG",
+        "llms.txt generator",
+        "B2B automation MCP",
+        "n8n Apify integration",
+        "autonomous AI agent tools"
+      ],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "autonomous-ai-agent-tools",
+        "b2b-automation",
+        "b2b-automation-mcp",
+        "langchain",
+        "lead-generation",
+        "llms-txt",
+        "llmstxt-generator",
+        "make-com",
+        "mcp-server",
+        "n8n",
+        "n8n-apify-integration",
+        "rag-markdown",
+        "web-scraping",
+        "web-to-markdown-rag"
+      ],
+      "has_pages": false,
+      "pages_url": null,
+      "homepage": "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
+      "updated_at": "2026-10-18T12:14:20Z",
       "stars": 0
     },
     {
@@ -440,139 +590,59 @@
         "llms.txt validator"
       ],
       "topics": [
-        "siret-verification-mcp",
-        "eu-vies-vat-validator",
-        "siren-lookup-api",
-        "gdpr-audit-tool",
+        "ai-readiness",
+        "apify-actor",
+        "b2b-compliance",
+        "claude-desktop",
+        "eaa-2025",
         "eaa-2025-compliance-checker",
-        "llms.txt-validator"
+        "eu-vies-vat-validator",
+        "gdpr-audit-tool",
+        "gdpr-compliance",
+        "kyc-automation",
+        "llms-txt",
+        "llmstxt-validator",
+        "mcp-server",
+        "siren-api",
+        "siren-lookup-api",
+        "siret-validator",
+        "siret-verification-mcp",
+        "vies-vat"
       ],
       "has_pages": false,
       "pages_url": null,
-      "homepage": "",
-      "updated_at": "2026-10-18T10:40:36Z",
+      "homepage": "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
+      "updated_at": "2026-10-18T12:14:19Z",
       "stars": 0
     },
     {
-      "name": "apify-b2b-autopilot-pack",
-      "title": "Apify B2B Autopilot Pack (Clean RAG Markdown, llms.txt & E-Commerce Intelligence)",
-      "full_name": "Thorlan04/apify-b2b-autopilot-pack",
-      "html_url": "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
-      "description": "All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).",
+      "name": "auto-consumables-agent",
+      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
+      "full_name": "Thorlan04/auto-consumables-agent",
+      "html_url": "https://github.com/Thorlan04/auto-consumables-agent",
+      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
       "keywords": [
-        "web to markdown RAG",
-        "llms.txt generator",
-        "B2B automation MCP",
-        "n8n Apify integration",
-        "autonomous AI agent tools"
+        "automotive consumables matrix",
+        "car maintenance parts finder",
+        "filter oil brake cross-reference",
+        "vehicle compatibility tool"
       ],
       "topics": [
-        "web-to-markdown-rag",
-        "llms.txt-generator",
-        "b2b-automation-mcp",
-        "n8n-apify-integration",
-        "autonomous-ai-agent-tools"
-      ],
-      "has_pages": false,
-      "pages_url": null,
-      "homepage": "",
-      "updated_at": "2026-10-18T10:40:12Z",
-      "stars": 0
-    },
-    {
-      "name": "global-compatibility-matrix-agent",
-      "title": "Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference",
-      "full_name": "Thorlan04/global-compatibility-matrix-agent",
-      "html_url": "https://github.com/Thorlan04/global-compatibility-matrix-agent",
-      "description": "Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.",
-      "keywords": [
-        "hardware compatibility matrix",
-        "spare parts cross-reference",
-        "OEM replacement finder",
-        "technical compatibility database"
-      ],
-      "topics": [
-        "hardware-compatibility-matrix",
-        "spare-parts-cross-reference",
-        "oem-replacement-finder",
-        "technical-compatibility-database"
+        "auto-parts",
+        "automotive-consumables-matrix",
+        "car-maintenance-parts-finder",
+        "compatibility-engine",
+        "consumables-finder",
+        "cross-reference",
+        "filter-oil-brake-cross-reference",
+        "github-pages",
+        "smart-matrix",
+        "vehicle-compatibility-tool"
       ],
       "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
-      "homepage": "",
-      "updated_at": "2026-10-18T10:19:18Z",
-      "stars": 0
-    },
-    {
-      "name": "auto-outdoor-parts-agent",
-      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
-      "full_name": "Thorlan04/auto-outdoor-parts-agent",
-      "html_url": "https://github.com/Thorlan04/auto-outdoor-parts-agent",
-      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
-      "keywords": [
-        "outdoor power equipment parts",
-        "lawnmower spare parts matrix",
-        "chainsaw compatibility lookup",
-        "aftermarket part cross-reference"
-      ],
-      "topics": [
-        "outdoor-power-equipment-parts",
-        "lawnmower-spare-parts-matrix",
-        "chainsaw-compatibility-lookup",
-        "aftermarket-part-cross-reference"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
-      "homepage": "",
-      "updated_at": "2026-10-18T10:18:26Z",
-      "stars": 0
-    },
-    {
-      "name": "apify-autonomous-factory-brain",
-      "title": "Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine",
-      "full_name": "Thorlan04/apify-autonomous-factory-brain",
-      "html_url": "https://github.com/Thorlan04/apify-autonomous-factory-brain",
-      "description": "Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.",
-      "keywords": [
-        "Apify Actor orchestration",
-        "autonomous agent factory",
-        "MCP server generator",
-        "B2B cloud automation"
-      ],
-      "topics": [
-        "apify-actor-orchestration",
-        "autonomous-agent-factory",
-        "mcp-server-generator",
-        "b2b-cloud-automation"
-      ],
-      "has_pages": false,
-      "pages_url": null,
-      "homepage": "",
-      "updated_at": "2026-10-18T08:39:49Z",
-      "stars": 0
-    },
-    {
-      "name": "prompt-generator",
-      "title": "Enterprise AI Prompt Generator & System Instruction Architect",
-      "full_name": "Thorlan04/prompt-generator",
-      "html_url": "https://github.com/Thorlan04/prompt-generator",
-      "description": "Structured prompt engineering toolkit for crafting deterministic system prompts, JSON schema outputs, and multi-agent instructions for Claude, GPT-4o, and Gemini.",
-      "keywords": [
-        "prompt engineering tool",
-        "system prompt generator",
-        "LLM instruction builder",
-        "structured output prompts"
-      ],
-      "topics": [
-        "prompt-engineering-tool",
-        "system-prompt-generator",
-        "llm-instruction-builder",
-        "structured-output-prompts"
-      ],
-      "has_pages": false,
-      "pages_url": null,
-      "homepage": "",
-      "updated_at": "2026-01-11T09:05:55Z",
+      "pages_url": "https://thorlan04.github.io/auto-consumables-agent/",
+      "homepage": "https://thorlan04.github.io/auto-consumables-agent/",
+      "updated_at": "2026-10-18T12:14:15Z",
       "stars": 0
     }
   ],
@@ -593,17 +663,45 @@
       "verified_online": true
     },
     {
-      "repo_name": "auto-consumables-agent",
-      "url": "https://thorlan04.github.io/auto-consumables-agent/",
-      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
-      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
+      "repo_name": "prompt-generator",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "title": "Enterprise AI Prompt Generator & System Instruction Architect",
+      "description": "Structured prompt engineering toolkit for crafting deterministic system prompts, JSON schema outputs, and multi-agent instructions for Claude, GPT-4o, and Gemini.",
       "keywords": [
-        "automotive consumables matrix",
-        "car maintenance parts finder",
-        "filter oil brake cross-reference",
-        "vehicle compatibility tool"
+        "prompt engineering tool",
+        "system prompt generator",
+        "LLM instruction builder",
+        "structured output prompts"
       ],
-      "sitemap_url": "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
+      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "apify-autonomous-factory-brain",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "title": "Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine",
+      "description": "Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.",
+      "keywords": [
+        "Apify Actor orchestration",
+        "autonomous agent factory",
+        "MCP server generator",
+        "B2B cloud automation"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "auto-outdoor-parts-agent",
+      "url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
+      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
+      "keywords": [
+        "outdoor power equipment parts",
+        "lawnmower spare parts matrix",
+        "chainsaw compatibility lookup",
+        "aftermarket part cross-reference"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
       "verified_online": true
     },
     {
@@ -621,22 +719,22 @@
       "verified_online": true
     },
     {
-      "repo_name": "auto-outdoor-parts-agent",
-      "url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
-      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
-      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
+      "repo_name": "auto-consumables-agent",
+      "url": "https://thorlan04.github.io/auto-consumables-agent/",
+      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
+      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
       "keywords": [
-        "outdoor power equipment parts",
-        "lawnmower spare parts matrix",
-        "chainsaw compatibility lookup",
-        "aftermarket part cross-reference"
+        "automotive consumables matrix",
+        "car maintenance parts finder",
+        "filter oil brake cross-reference",
+        "vehicle compatibility tool"
       ],
-      "sitemap_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
+      "sitemap_url": "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
       "verified_online": true
     }
   ],
   "total_repos": 8,
-  "total_pages_sites": 4,
+  "total_pages_sites": 6,
   "indexable_urls": [
     "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
     "https://apify.com/thorlan04/shopify-fast-catalog-products-json",
@@ -661,18 +759,18 @@
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.html",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.md",
     "https://github.com/Thorlan04/apify-megaphone-ia",
-    "https://github.com/Thorlan04/auto-consumables-agent",
-    "https://thorlan04.github.io/auto-consumables-agent/",
-    "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
-    "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
-    "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
-    "https://github.com/Thorlan04/global-compatibility-matrix-agent",
-    "https://thorlan04.github.io/global-compatibility-matrix-agent/",
-    "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
+    "https://github.com/Thorlan04/prompt-generator",
+    "https://github.com/Thorlan04/apify-autonomous-factory-brain",
     "https://github.com/Thorlan04/auto-outdoor-parts-agent",
     "https://thorlan04.github.io/auto-outdoor-parts-agent/",
     "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
-    "https://github.com/Thorlan04/apify-autonomous-factory-brain",
-    "https://github.com/Thorlan04/prompt-generator"
+    "https://github.com/Thorlan04/global-compatibility-matrix-agent",
+    "https://thorlan04.github.io/global-compatibility-matrix-agent/",
+    "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
+    "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
+    "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
+    "https://github.com/Thorlan04/auto-consumables-agent",
+    "https://thorlan04.github.io/auto-consumables-agent/",
+    "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml"
   ]
 }

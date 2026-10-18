@@ -139,49 +139,13 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://github.com/Thorlan04/auto-consumables-agent</loc>
+    <loc>https://github.com/Thorlan04/prompt-generator</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://thorlan04.github.io/auto-consumables-agent/</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://thorlan04.github.io/auto-consumables-agent/sitemap.xml</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://github.com/Thorlan04/apify-b2b-autopilot-pack</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://github.com/Thorlan04/global-compatibility-matrix-agent</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://thorlan04.github.io/global-compatibility-matrix-agent/</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml</loc>
+    <loc>https://github.com/Thorlan04/apify-autonomous-factory-brain</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -205,13 +169,49 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://github.com/Thorlan04/apify-autonomous-factory-brain</loc>
+    <loc>https://github.com/Thorlan04/global-compatibility-matrix-agent</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://github.com/Thorlan04/prompt-generator</loc>
+    <loc>https://thorlan04.github.io/global-compatibility-matrix-agent/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/apify-b2b-autopilot-pack</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/auto-consumables-agent</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://thorlan04.github.io/auto-consumables-agent/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://thorlan04.github.io/auto-consumables-agent/sitemap.xml</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

@@ -63,10 +63,11 @@ def get_or_create_indexnow_key() -> str:
 
 def broadcast_to_indexnow(urls: List[str], key: str, host: str = HOST_NAME) -> Dict[str, Any]:
     """Submits GitHub Pages URLs to the central IndexNow API."""
-    # Filter URLs belonging to this host
-    filtered_urls = [u for u in urls if host in u]
+    # IndexNow protocol requires submitted URLs to be within the key's directory hierarchy
+    scope_prefix = f"https://{host}/apify-megaphone-ia"
+    filtered_urls = [u for u in urls if u.startswith(scope_prefix)]
     if not filtered_urls:
-        logger.warning(f"No URLs matching host {host} found to submit to IndexNow.")
+        logger.warning(f"No URLs matching scope {scope_prefix} found to submit to IndexNow.")
         return {"status": "skipped", "count": 0}
 
     key_location = f"https://{host}/apify-megaphone-ia/{key}.txt"

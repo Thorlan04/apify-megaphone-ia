@@ -221,10 +221,10 @@
       "html_url": "https://github.com/Thorlan04/apify-megaphone-ia",
       "description": "Thorlan04 open-source tool and technical matrix: apify-megaphone-ia",
       "topics": [],
-      "has_pages": false,
-      "pages_url": null,
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "homepage": "",
-      "updated_at": "2026-10-18T10:35:42Z",
+      "updated_at": "2026-10-18T10:38:00Z",
       "stars": 0
     },
     {
@@ -314,6 +314,14 @@
   ],
   "github_pages_sites": [
     {
+      "repo_name": "apify-megaphone-ia",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "title": "Apify Megaphone Ia",
+      "description": "Thorlan04 open-source tool and technical matrix: apify-megaphone-ia",
+      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
+      "verified_online": true
+    },
+    {
       "repo_name": "global-compatibility-matrix-agent",
       "url": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
       "title": "Global Compatibility Matrix Agent",
@@ -339,12 +347,14 @@
     }
   ],
   "total_repos": 8,
-  "total_pages_sites": 3,
+  "total_pages_sites": 4,
   "indexable_urls": [
     "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
     "https://apify.com/thorlan04/shopify-fast-catalog-products-json",
     "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
     "https://github.com/Thorlan04/apify-megaphone-ia",
+    "https://thorlan04.github.io/apify-megaphone-ia/",
+    "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
     "https://github.com/Thorlan04/global-compatibility-matrix-agent",
     "https://thorlan04.github.io/global-compatibility-matrix-agent/",
     "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
@@ -357,8 +367,6 @@
     "https://github.com/Thorlan04/auto-consumables-agent",
     "https://thorlan04.github.io/auto-consumables-agent/",
     "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
-    "https://github.com/Thorlan04/prompt-generator",
-    "https://thorlan04.github.io/apify-megaphone-ia/",
-    "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml"
+    "https://github.com/Thorlan04/prompt-generator"
   ]
 }

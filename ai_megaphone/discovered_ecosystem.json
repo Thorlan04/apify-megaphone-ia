@@ -216,6 +216,18 @@
   ],
   "github_repositories": [
     {
+      "name": "apify-b2b-autopilot-pack",
+      "full_name": "Thorlan04/apify-b2b-autopilot-pack",
+      "html_url": "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
+      "description": "Thorlan04 open-source tool and technical matrix: apify-b2b-autopilot-pack",
+      "topics": [],
+      "has_pages": false,
+      "pages_url": null,
+      "homepage": "",
+      "updated_at": "2026-10-18T10:40:12Z",
+      "stars": 0
+    },
+    {
       "name": "apify-megaphone-ia",
       "full_name": "Thorlan04/apify-megaphone-ia",
       "html_url": "https://github.com/Thorlan04/apify-megaphone-ia",
@@ -224,7 +236,7 @@
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "homepage": "",
-      "updated_at": "2026-10-18T10:38:00Z",
+      "updated_at": "2026-10-18T10:40:09Z",
       "stars": 0
     },
     {
@@ -249,18 +261,6 @@
       "pages_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
       "homepage": "",
       "updated_at": "2026-10-18T10:18:26Z",
-      "stars": 0
-    },
-    {
-      "name": "apify-b2b-autopilot-pack",
-      "full_name": "Thorlan04/apify-b2b-autopilot-pack",
-      "html_url": "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
-      "description": "Thorlan04 open-source tool and technical matrix: apify-b2b-autopilot-pack",
-      "topics": [],
-      "has_pages": false,
-      "pages_url": null,
-      "homepage": "",
-      "updated_at": "2026-10-18T10:05:00Z",
       "stars": 0
     },
     {
@@ -352,6 +352,7 @@
     "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
     "https://apify.com/thorlan04/shopify-fast-catalog-products-json",
     "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
+    "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
     "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://thorlan04.github.io/apify-megaphone-ia/",
     "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
@@ -361,7 +362,6 @@
     "https://github.com/Thorlan04/auto-outdoor-parts-agent",
     "https://thorlan04.github.io/auto-outdoor-parts-agent/",
     "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
-    "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
     "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
     "https://github.com/Thorlan04/apify-autonomous-factory-brain",
     "https://github.com/Thorlan04/auto-consumables-agent",

@@ -101,29 +101,30 @@ A: Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2
 
 ## GitHub Pages Technical Hubs & Compatibility Matrices
 
+- [Global Fx Fee Arbitrage](https://thorlan04.github.io/global-fx-fee-arbitrage/): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
+- [Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine](https://thorlan04.github.io/apify-megaphone-ia/): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
 - [Ai Finops Cost Oracle](https://thorlan04.github.io/ai-finops-cost-oracle/): Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle
 - [Auto Consumables & Maintenance Parts Compatibility Engine](https://thorlan04.github.io/auto-consumables-agent/): Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.
 - [Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference](https://thorlan04.github.io/global-compatibility-matrix-agent/): Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.
 - [Auto & Outdoor Power Equipment Parts Compatibility Agent](https://thorlan04.github.io/auto-outdoor-parts-agent/): Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.
 - [Ecoradar Autopilot](https://thorlan04.github.io/EcoRadar-Autopilot/): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
-- [Global Fx Fee Arbitrage](https://thorlan04.github.io/global-fx-fee-arbitrage/): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
-- [Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine](https://thorlan04.github.io/apify-megaphone-ia/): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
 - [Enterprise AI Prompt Generator & System Instruction Architect](https://thorlan04.github.io/apify-megaphone-ia/): Structured prompt engineering toolkit for crafting deterministic system prompts, JSON schema outputs, and multi-agent instructions for Claude, GPT-4o, and Gemini.
 - [Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine](https://thorlan04.github.io/apify-megaphone-ia/): Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.
 
 ## Open-Source GitHub Repositories
 
+- [AlphaLab-ZeroDisk](https://github.com/Thorlan04/AlphaLab-ZeroDisk): Thorlan04 autonomous B2B tool and technical matrix: AlphaLab-ZeroDisk
+- [apify-b2b-autopilot-pack](https://github.com/Thorlan04/apify-b2b-autopilot-pack): All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).
+- [eu-b2b-compliance-ai-auditor](https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor): Production MCP Server & Apify Actor for European B2B KYB/KYC verification: official French SIREN/SIRET lookup, EU VIES VAT validation, GDPR cookie/privacy audit, European Accessibility Act (EAA 2025 / WCAG 2.1 AA) check, and llms.txt AI-Readiness scoring.
+- [global-fx-fee-arbitrage](https://github.com/Thorlan04/global-fx-fee-arbitrage): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
+- [apify-megaphone-ia](https://github.com/Thorlan04/apify-megaphone-ia): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
 - [ai-finops-cost-oracle](https://github.com/Thorlan04/ai-finops-cost-oracle): Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle
 - [auto-consumables-agent](https://github.com/Thorlan04/auto-consumables-agent): Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.
 - [global-compatibility-matrix-agent](https://github.com/Thorlan04/global-compatibility-matrix-agent): Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.
 - [auto-outdoor-parts-agent](https://github.com/Thorlan04/auto-outdoor-parts-agent): Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.
 - [EcoRadar-Autopilot](https://github.com/Thorlan04/EcoRadar-Autopilot): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
-- [apify-b2b-autopilot-pack](https://github.com/Thorlan04/apify-b2b-autopilot-pack): All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).
-- [global-fx-fee-arbitrage](https://github.com/Thorlan04/global-fx-fee-arbitrage): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
-- [apify-megaphone-ia](https://github.com/Thorlan04/apify-megaphone-ia): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
 - [prompt-generator](https://github.com/Thorlan04/prompt-generator): Structured prompt engineering toolkit for crafting deterministic system prompts, JSON schema outputs, and multi-agent instructions for Claude, GPT-4o, and Gemini.
 - [apify-autonomous-factory-brain](https://github.com/Thorlan04/apify-autonomous-factory-brain): Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.
-- [eu-b2b-compliance-ai-auditor](https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor): Production MCP Server & Apify Actor for European B2B KYB/KYC verification: official French SIREN/SIRET lookup, EU VIES VAT validation, GDPR cookie/privacy audit, European Accessibility Act (EAA 2025 / WCAG 2.1 AA) check, and llms.txt AI-Readiness scoring.
 
 ## Machine-Readable Manifests
 - [Full LLMs Specification](https://thorlan04.github.io/apify-megaphone-ia/llms-full.txt)
@@ -325,6 +326,13 @@ A: Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2
 - https://thorlan04.github.io/apify-megaphone-ia/solutions/b2b-rag-markdown-extractor-n8n-make.md
 - https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.html
 - https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.md
+- https://github.com/Thorlan04/AlphaLab-ZeroDisk
+- https://github.com/Thorlan04/apify-b2b-autopilot-pack
+- https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor
+- https://github.com/Thorlan04/global-fx-fee-arbitrage
+- https://thorlan04.github.io/global-fx-fee-arbitrage/
+- https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml
+- https://github.com/Thorlan04/apify-megaphone-ia
 - https://github.com/Thorlan04/ai-finops-cost-oracle
 - https://thorlan04.github.io/ai-finops-cost-oracle/
 - https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml
@@ -340,11 +348,5 @@ A: Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2
 - https://github.com/Thorlan04/EcoRadar-Autopilot
 - https://thorlan04.github.io/EcoRadar-Autopilot/
 - https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml
-- https://github.com/Thorlan04/apify-b2b-autopilot-pack
-- https://github.com/Thorlan04/global-fx-fee-arbitrage
-- https://thorlan04.github.io/global-fx-fee-arbitrage/
-- https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml
-- https://github.com/Thorlan04/apify-megaphone-ia
 - https://github.com/Thorlan04/prompt-generator
 - https://github.com/Thorlan04/apify-autonomous-factory-brain
-- https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor

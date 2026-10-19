@@ -376,6 +376,151 @@
   ],
   "github_repositories": [
     {
+      "name": "AlphaLab-ZeroDisk",
+      "title": "Alphalab Zerodisk",
+      "full_name": "Thorlan04/AlphaLab-ZeroDisk",
+      "html_url": "https://github.com/Thorlan04/AlphaLab-ZeroDisk",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: AlphaLab-ZeroDisk",
+      "keywords": [],
+      "topics": [],
+      "has_pages": false,
+      "pages_url": null,
+      "homepage": "",
+      "updated_at": "2026-10-19T10:30:58Z",
+      "stars": 0
+    },
+    {
+      "name": "apify-b2b-autopilot-pack",
+      "title": "Apify B2B Autopilot Pack (Clean RAG Markdown, llms.txt & E-Commerce Intelligence)",
+      "full_name": "Thorlan04/apify-b2b-autopilot-pack",
+      "html_url": "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
+      "description": "All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).",
+      "keywords": [
+        "web to markdown RAG",
+        "llms.txt generator",
+        "B2B automation MCP",
+        "n8n Apify integration",
+        "autonomous AI agent tools"
+      ],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "autonomous-ai-agent-tools",
+        "b2b-automation",
+        "b2b-automation-mcp",
+        "langchain",
+        "lead-generation",
+        "llms-txt",
+        "llmstxt-generator",
+        "make-com",
+        "mcp-server",
+        "n8n",
+        "n8n-apify-integration",
+        "rag-markdown",
+        "web-scraping",
+        "web-to-markdown-rag"
+      ],
+      "has_pages": false,
+      "pages_url": null,
+      "homepage": "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
+      "updated_at": "2026-10-19T09:36:41Z",
+      "stars": 0
+    },
+    {
+      "name": "eu-b2b-compliance-ai-auditor",
+      "title": "EU B2B Compliance & AI-Readiness Auditor (SIRET, SIREN, VIES VAT, GDPR, EAA 2025)",
+      "full_name": "Thorlan04/eu-b2b-compliance-ai-auditor",
+      "html_url": "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
+      "description": "Production MCP Server & Apify Actor for European B2B KYB/KYC verification: official French SIREN/SIRET lookup, EU VIES VAT validation, GDPR cookie/privacy audit, European Accessibility Act (EAA 2025 / WCAG 2.1 AA) check, and llms.txt AI-Readiness scoring.",
+      "keywords": [
+        "SIRET verification MCP",
+        "EU VIES VAT validator",
+        "SIREN lookup API",
+        "GDPR audit tool",
+        "EAA 2025 compliance checker",
+        "llms.txt validator"
+      ],
+      "topics": [
+        "ai-readiness",
+        "apify-actor",
+        "b2b-compliance",
+        "claude-desktop",
+        "eaa-2025",
+        "eaa-2025-compliance-checker",
+        "eu-vies-vat-validator",
+        "gdpr-audit-tool",
+        "gdpr-compliance",
+        "kyc-automation",
+        "llms-txt",
+        "llmstxt-validator",
+        "mcp-server",
+        "siren-api",
+        "siren-lookup-api",
+        "siret-validator",
+        "siret-verification-mcp",
+        "vies-vat"
+      ],
+      "has_pages": false,
+      "pages_url": null,
+      "homepage": "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
+      "updated_at": "2026-10-19T09:32:16Z",
+      "stars": 0
+    },
+    {
+      "name": "global-fx-fee-arbitrage",
+      "title": "Global Fx Fee Arbitrage",
+      "full_name": "Thorlan04/global-fx-fee-arbitrage",
+      "html_url": "https://github.com/Thorlan04/global-fx-fee-arbitrage",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
+      "keywords": [],
+      "topics": [],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+      "homepage": "",
+      "updated_at": "2026-10-19T08:54:22Z",
+      "stars": 0
+    },
+    {
+      "name": "apify-megaphone-ia",
+      "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
+      "full_name": "Thorlan04/apify-megaphone-ia",
+      "html_url": "https://github.com/Thorlan04/apify-megaphone-ia",
+      "description": "Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.",
+      "keywords": [
+        "Generative Engine Optimization",
+        "MCP tool registry",
+        "llms.txt hub",
+        "IndexNow automation",
+        "Apify B2B tools"
+      ],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "apify-b2b-tools",
+        "claude-desktop",
+        "cursor-ai",
+        "eaa-2025",
+        "gdpr-compliance",
+        "generative-engine-optimization",
+        "indexnow",
+        "indexnow-automation",
+        "llms-txt",
+        "llmstxt-hub",
+        "mcp-server",
+        "mcp-tool-registry",
+        "n8n",
+        "perplexity-seo",
+        "shopify-scraper",
+        "siret-validator",
+        "vies-vat"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "updated_at": "2026-10-19T07:32:03Z",
+      "stars": 0
+    },
+    {
       "name": "ai-finops-cost-oracle",
       "title": "Ai Finops Cost Oracle",
       "full_name": "Thorlan04/ai-finops-cost-oracle",
@@ -495,97 +640,6 @@
       "stars": 0
     },
     {
-      "name": "apify-b2b-autopilot-pack",
-      "title": "Apify B2B Autopilot Pack (Clean RAG Markdown, llms.txt & E-Commerce Intelligence)",
-      "full_name": "Thorlan04/apify-b2b-autopilot-pack",
-      "html_url": "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
-      "description": "All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).",
-      "keywords": [
-        "web to markdown RAG",
-        "llms.txt generator",
-        "B2B automation MCP",
-        "n8n Apify integration",
-        "autonomous AI agent tools"
-      ],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "autonomous-ai-agent-tools",
-        "b2b-automation",
-        "b2b-automation-mcp",
-        "langchain",
-        "lead-generation",
-        "llms-txt",
-        "llmstxt-generator",
-        "make-com",
-        "mcp-server",
-        "n8n",
-        "n8n-apify-integration",
-        "rag-markdown",
-        "web-scraping",
-        "web-to-markdown-rag"
-      ],
-      "has_pages": false,
-      "pages_url": null,
-      "homepage": "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
-      "updated_at": "2026-10-18T16:15:50Z",
-      "stars": 0
-    },
-    {
-      "name": "global-fx-fee-arbitrage",
-      "title": "Global Fx Fee Arbitrage",
-      "full_name": "Thorlan04/global-fx-fee-arbitrage",
-      "html_url": "https://github.com/Thorlan04/global-fx-fee-arbitrage",
-      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
-      "keywords": [],
-      "topics": [],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-      "homepage": "",
-      "updated_at": "2026-10-18T14:11:00Z",
-      "stars": 0
-    },
-    {
-      "name": "apify-megaphone-ia",
-      "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
-      "full_name": "Thorlan04/apify-megaphone-ia",
-      "html_url": "https://github.com/Thorlan04/apify-megaphone-ia",
-      "description": "Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.",
-      "keywords": [
-        "Generative Engine Optimization",
-        "MCP tool registry",
-        "llms.txt hub",
-        "IndexNow automation",
-        "Apify B2B tools"
-      ],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "apify-b2b-tools",
-        "claude-desktop",
-        "cursor-ai",
-        "eaa-2025",
-        "gdpr-compliance",
-        "generative-engine-optimization",
-        "indexnow",
-        "indexnow-automation",
-        "llms-txt",
-        "llmstxt-hub",
-        "mcp-server",
-        "mcp-tool-registry",
-        "n8n",
-        "perplexity-seo",
-        "shopify-scraper",
-        "siret-validator",
-        "vies-vat"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "updated_at": "2026-10-18T12:38:48Z",
-      "stars": 0
-    },
-    {
       "name": "prompt-generator",
       "title": "Enterprise AI Prompt Generator & System Instruction Architect",
       "full_name": "Thorlan04/prompt-generator",
@@ -646,49 +700,33 @@
       "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
       "updated_at": "2026-10-18T12:14:25Z",
       "stars": 0
-    },
-    {
-      "name": "eu-b2b-compliance-ai-auditor",
-      "title": "EU B2B Compliance & AI-Readiness Auditor (SIRET, SIREN, VIES VAT, GDPR, EAA 2025)",
-      "full_name": "Thorlan04/eu-b2b-compliance-ai-auditor",
-      "html_url": "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
-      "description": "Production MCP Server & Apify Actor for European B2B KYB/KYC verification: official French SIREN/SIRET lookup, EU VIES VAT validation, GDPR cookie/privacy audit, European Accessibility Act (EAA 2025 / WCAG 2.1 AA) check, and llms.txt AI-Readiness scoring.",
-      "keywords": [
-        "SIRET verification MCP",
-        "EU VIES VAT validator",
-        "SIREN lookup API",
-        "GDPR audit tool",
-        "EAA 2025 compliance checker",
-        "llms.txt validator"
-      ],
-      "topics": [
-        "ai-readiness",
-        "apify-actor",
-        "b2b-compliance",
-        "claude-desktop",
-        "eaa-2025",
-        "eaa-2025-compliance-checker",
-        "eu-vies-vat-validator",
-        "gdpr-audit-tool",
-        "gdpr-compliance",
-        "kyc-automation",
-        "llms-txt",
-        "llmstxt-validator",
-        "mcp-server",
-        "siren-api",
-        "siren-lookup-api",
-        "siret-validator",
-        "siret-verification-mcp",
-        "vies-vat"
-      ],
-      "has_pages": false,
-      "pages_url": null,
-      "homepage": "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
-      "updated_at": "2026-10-18T12:14:19Z",
-      "stars": 0
     }
   ],
   "github_pages_sites": [
+    {
+      "repo_name": "global-fx-fee-arbitrage",
+      "url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+      "title": "Global Fx Fee Arbitrage",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
+      "keywords": [],
+      "sitemap_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "apify-megaphone-ia",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
+      "description": "Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.",
+      "keywords": [
+        "Generative Engine Optimization",
+        "MCP tool registry",
+        "llms.txt hub",
+        "IndexNow automation",
+        "Apify B2B tools"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
+      "verified_online": true
+    },
     {
       "repo_name": "ai-finops-cost-oracle",
       "url": "https://thorlan04.github.io/ai-finops-cost-oracle/",
@@ -750,30 +788,6 @@
       "verified_online": true
     },
     {
-      "repo_name": "global-fx-fee-arbitrage",
-      "url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-      "title": "Global Fx Fee Arbitrage",
-      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
-      "keywords": [],
-      "sitemap_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
-      "verified_online": true
-    },
-    {
-      "repo_name": "apify-megaphone-ia",
-      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
-      "description": "Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.",
-      "keywords": [
-        "Generative Engine Optimization",
-        "MCP tool registry",
-        "llms.txt hub",
-        "IndexNow automation",
-        "Apify B2B tools"
-      ],
-      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
-      "verified_online": true
-    },
-    {
       "repo_name": "prompt-generator",
       "url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "title": "Enterprise AI Prompt Generator & System Instruction Architect",
@@ -802,7 +816,7 @@
       "verified_online": true
     }
   ],
-  "total_repos": 11,
+  "total_repos": 12,
   "total_pages_sites": 9,
   "indexable_urls": [
     "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
@@ -827,6 +841,13 @@
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/b2b-rag-markdown-extractor-n8n-make.md",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.html",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.md",
+    "https://github.com/Thorlan04/AlphaLab-ZeroDisk",
+    "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
+    "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
+    "https://github.com/Thorlan04/global-fx-fee-arbitrage",
+    "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+    "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
+    "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://github.com/Thorlan04/ai-finops-cost-oracle",
     "https://thorlan04.github.io/ai-finops-cost-oracle/",
     "https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml",
@@ -842,13 +863,7 @@
     "https://github.com/Thorlan04/EcoRadar-Autopilot",
     "https://thorlan04.github.io/EcoRadar-Autopilot/",
     "https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml",
-    "https://github.com/Thorlan04/apify-b2b-autopilot-pack",
-    "https://github.com/Thorlan04/global-fx-fee-arbitrage",
-    "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-    "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
-    "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://github.com/Thorlan04/prompt-generator",
-    "https://github.com/Thorlan04/apify-autonomous-factory-brain",
-    "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor"
+    "https://github.com/Thorlan04/apify-autonomous-factory-brain"
   ]
 }

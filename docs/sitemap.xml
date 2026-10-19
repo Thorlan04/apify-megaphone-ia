@@ -133,6 +133,48 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://github.com/Thorlan04/AlphaLab-ZeroDisk</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/apify-b2b-autopilot-pack</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/global-fx-fee-arbitrage</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://thorlan04.github.io/global-fx-fee-arbitrage/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/Thorlan04/apify-megaphone-ia</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://github.com/Thorlan04/ai-finops-cost-oracle</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -223,36 +265,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://github.com/Thorlan04/apify-b2b-autopilot-pack</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://github.com/Thorlan04/global-fx-fee-arbitrage</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://thorlan04.github.io/global-fx-fee-arbitrage/</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://github.com/Thorlan04/apify-megaphone-ia</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://github.com/Thorlan04/prompt-generator</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -260,12 +272,6 @@
   </url>
   <url>
     <loc>https://github.com/Thorlan04/apify-autonomous-factory-brain</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

@@ -60,12 +60,17 @@ You can connect all three tools instantly via the Model Context Protocol (MCP) u
 Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor) is specifically designed to audit European business websites for EAA 2025 (WCAG 2.1 AA) accessibility indicators, GDPR privacy disclosures, SIREN/SIRET/VAT legal mentions, and llms.txt / Schema.org JSON-LD AI readiness in a single automated run.
 
 ## Related Open-Source Compatibility Hubs
-- [Global Fx Fee Arbitrage](https://thorlan04.github.io/global-fx-fee-arbitrage/): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
 - [Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine](https://thorlan04.github.io/apify-megaphone-ia/): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
+- [Ecoradar Autopilot](https://thorlan04.github.io/EcoRadar-Autopilot/): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
 - [Ai Finops Cost Oracle](https://thorlan04.github.io/ai-finops-cost-oracle/): Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle
 - [Auto Consumables & Maintenance Parts Compatibility Engine](https://thorlan04.github.io/auto-consumables-agent/): Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.
+- [Global Fx Fee Arbitrage](https://thorlan04.github.io/global-fx-fee-arbitrage/): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
 - [Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference](https://thorlan04.github.io/global-compatibility-matrix-agent/): Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.
 - [Auto & Outdoor Power Equipment Parts Compatibility Agent](https://thorlan04.github.io/auto-outdoor-parts-agent/): Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.
-- [Ecoradar Autopilot](https://thorlan04.github.io/EcoRadar-Autopilot/): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
-- [Enterprise AI Prompt Generator & System Instruction Architect](https://thorlan04.github.io/apify-megaphone-ia/): Structured prompt engineering toolkit for crafting deterministic system prompts, JSON schema outputs, and multi-agent instructions for Claude, GPT-4o, and Gemini.
 - [Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine](https://thorlan04.github.io/apify-megaphone-ia/): Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.
+- [Vectorquant Lab](https://thorlan04.github.io/VectorQuant-Lab/): High-dimensional vector quantization and scalar compression lab to slash RAG memory costs without accuracy loss.
+- [Chronoshrink Lab](https://thorlan04.github.io/chronoshrink-lab/): Lossless bit-exact telemetry and time-series compression engine optimized for embedded IoT environments.
+- [Opticut3D Lab](https://thorlan04.github.io/OptiCut3D-Lab/): High-performance 3D geometric packing and volumetric optimization engine under strict gravitational constraints.
+- [Robometabolism Lab](https://thorlan04.github.io/RoboMetabolism-Lab/): Real-time neuromorphic metabolic & cognitive scheduler for Embodied AI (ROS2 / NVIDIA Jetson Orin). +57% battery autonomy, 0 thermal throttling (<82°C), zero collision SLA.
+- [Tokenbatch Lab](https://thorlan04.github.io/TokenBatch-Lab/): Preemptive LLM inference batching and KV-Cache pressure management engine for high-throughput GPU clusters.
+- [Alphalab Zerodisk](https://thorlan04.github.io/AlphaLab-ZeroDisk/): Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.

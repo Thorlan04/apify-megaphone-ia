@@ -11,3 +11,6 @@ ENV/
 .vscode/
 *.swp
 *.swo
+
+# Local secrets & tokens
+ai_megaphone/telegraph_token.json

@@ -39,7 +39,11 @@ HUB_URL = "https://thorlan04.github.io/apify-megaphone-ia/"
 
 
 def get_or_create_telegraph_token() -> str:
-    """Retrieves existing Telegraph token or registers a fresh anonymous account for free."""
+    """Retrieves existing Telegraph token from environment secret, local file, or registers a fresh anonymous account."""
+    env_token = os.getenv("TELEGRAPH_ACCESS_TOKEN", "").strip()
+    if env_token:
+        logger.info("Using TELEGRAPH_ACCESS_TOKEN from environment secret.")
+        return env_token
     if TOKEN_FILE.exists():
         try:
             with open(TOKEN_FILE, "r", encoding="utf-8") as f:

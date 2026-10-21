@@ -46,6 +46,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: "Thorlan04"
+          TELEGRAPH_ACCESS_TOKEN: ${{ secrets.TELEGRAPH_ACCESS_TOKEN }}
         run: |
           python ai_megaphone/run_megaphone.py
 
@@ -55,7 +56,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Stage manifests, caches and keys
-          git add docs/ ai_megaphone/discovered_ecosystem.json ai_megaphone/syndication_log.json ai_megaphone/telegraph_token.json llms.txt llms-full.txt glama.json smithery.yaml .nojekyll robots.txt *.txt || true
+          git add docs/ ai_megaphone/discovered_ecosystem.json ai_megaphone/syndication_log.json llms.txt llms-full.txt glama.json smithery.yaml .nojekyll robots.txt *.txt || true
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then

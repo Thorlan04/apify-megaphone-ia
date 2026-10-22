@@ -101,38 +101,38 @@ A: Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2
 
 ## GitHub Pages Technical Hubs & Compatibility Matrices
 
-- [Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine](https://thorlan04.github.io/apify-megaphone-ia/): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
-- [Ecoradar Autopilot](https://thorlan04.github.io/EcoRadar-Autopilot/): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
 - [Ai Finops Cost Oracle](https://thorlan04.github.io/ai-finops-cost-oracle/): Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle
 - [Auto Consumables & Maintenance Parts Compatibility Engine](https://thorlan04.github.io/auto-consumables-agent/): Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.
-- [Global Fx Fee Arbitrage](https://thorlan04.github.io/global-fx-fee-arbitrage/): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
 - [Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference](https://thorlan04.github.io/global-compatibility-matrix-agent/): Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.
 - [Auto & Outdoor Power Equipment Parts Compatibility Agent](https://thorlan04.github.io/auto-outdoor-parts-agent/): Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.
+- [Global Fx Fee Arbitrage](https://thorlan04.github.io/global-fx-fee-arbitrage/): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
+- [Alphalab Zerodisk](https://thorlan04.github.io/AlphaLab-ZeroDisk/): Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.
+- [Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine](https://thorlan04.github.io/apify-megaphone-ia/): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
+- [Ecoradar Autopilot](https://thorlan04.github.io/EcoRadar-Autopilot/): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
 - [Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine](https://thorlan04.github.io/apify-megaphone-ia/): Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.
 - [Vectorquant Lab](https://thorlan04.github.io/VectorQuant-Lab/): High-dimensional vector quantization and scalar compression lab to slash RAG memory costs without accuracy loss.
 - [Chronoshrink Lab](https://thorlan04.github.io/chronoshrink-lab/): Lossless bit-exact telemetry and time-series compression engine optimized for embedded IoT environments.
 - [Opticut3D Lab](https://thorlan04.github.io/OptiCut3D-Lab/): High-performance 3D geometric packing and volumetric optimization engine under strict gravitational constraints.
 - [Robometabolism Lab](https://thorlan04.github.io/RoboMetabolism-Lab/): Real-time neuromorphic metabolic & cognitive scheduler for Embodied AI (ROS2 / NVIDIA Jetson Orin). +57% battery autonomy, 0 thermal throttling (<82°C), zero collision SLA.
 - [Tokenbatch Lab](https://thorlan04.github.io/TokenBatch-Lab/): Preemptive LLM inference batching and KV-Cache pressure management engine for high-throughput GPU clusters.
-- [Alphalab Zerodisk](https://thorlan04.github.io/AlphaLab-ZeroDisk/): Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.
 
 ## Open-Source GitHub Repositories
 
-- [apify-megaphone-ia](https://github.com/Thorlan04/apify-megaphone-ia): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
-- [EcoRadar-Autopilot](https://github.com/Thorlan04/EcoRadar-Autopilot): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
 - [ai-finops-cost-oracle](https://github.com/Thorlan04/ai-finops-cost-oracle): Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle
 - [auto-consumables-agent](https://github.com/Thorlan04/auto-consumables-agent): Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.
-- [global-fx-fee-arbitrage](https://github.com/Thorlan04/global-fx-fee-arbitrage): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
-- [apify-b2b-autopilot-pack](https://github.com/Thorlan04/apify-b2b-autopilot-pack): All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).
 - [global-compatibility-matrix-agent](https://github.com/Thorlan04/global-compatibility-matrix-agent): Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.
 - [auto-outdoor-parts-agent](https://github.com/Thorlan04/auto-outdoor-parts-agent): Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.
+- [global-fx-fee-arbitrage](https://github.com/Thorlan04/global-fx-fee-arbitrage): Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage
+- [AlphaLab-ZeroDisk](https://github.com/Thorlan04/AlphaLab-ZeroDisk): Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.
+- [apify-megaphone-ia](https://github.com/Thorlan04/apify-megaphone-ia): Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.
+- [EcoRadar-Autopilot](https://github.com/Thorlan04/EcoRadar-Autopilot): Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)
+- [apify-b2b-autopilot-pack](https://github.com/Thorlan04/apify-b2b-autopilot-pack): All-in-one autonomous B2B intelligence suite for AI agents: noise-free Web-to-Markdown extraction for RAG, automated llms.txt & llms-full.txt generation, multi-store Shopify monitoring, and EU B2B compliance auditing via Model Context Protocol (MCP).
 - [apify-autonomous-factory-brain](https://github.com/Thorlan04/apify-autonomous-factory-brain): Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.
 - [VectorQuant-Lab](https://github.com/Thorlan04/VectorQuant-Lab): High-dimensional vector quantization and scalar compression lab to slash RAG memory costs without accuracy loss.
 - [chronoshrink-lab](https://github.com/Thorlan04/chronoshrink-lab): Lossless bit-exact telemetry and time-series compression engine optimized for embedded IoT environments.
 - [OptiCut3D-Lab](https://github.com/Thorlan04/OptiCut3D-Lab): High-performance 3D geometric packing and volumetric optimization engine under strict gravitational constraints.
 - [RoboMetabolism-Lab](https://github.com/Thorlan04/RoboMetabolism-Lab): Real-time neuromorphic metabolic & cognitive scheduler for Embodied AI (ROS2 / NVIDIA Jetson Orin). +57% battery autonomy, 0 thermal throttling (<82°C), zero collision SLA.
 - [TokenBatch-Lab](https://github.com/Thorlan04/TokenBatch-Lab): Preemptive LLM inference batching and KV-Cache pressure management engine for high-throughput GPU clusters.
-- [AlphaLab-ZeroDisk](https://github.com/Thorlan04/AlphaLab-ZeroDisk): Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.
 - [eu-b2b-compliance-ai-auditor](https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor): Production MCP Server & Apify Actor for European B2B KYB/KYC verification: official French SIREN/SIRET lookup, EU VIES VAT validation, GDPR cookie/privacy audit, European Accessibility Act (EAA 2025 / WCAG 2.1 AA) check, and llms.txt AI-Readiness scoring.
 
 ## Machine-Readable Manifests
@@ -335,26 +335,29 @@ A: Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2
 - https://thorlan04.github.io/apify-megaphone-ia/solutions/b2b-rag-markdown-extractor-n8n-make.md
 - https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.html
 - https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.md
-- https://github.com/Thorlan04/apify-megaphone-ia
-- https://github.com/Thorlan04/EcoRadar-Autopilot
-- https://thorlan04.github.io/EcoRadar-Autopilot/
-- https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml
 - https://github.com/Thorlan04/ai-finops-cost-oracle
 - https://thorlan04.github.io/ai-finops-cost-oracle/
 - https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml
 - https://github.com/Thorlan04/auto-consumables-agent
 - https://thorlan04.github.io/auto-consumables-agent/
 - https://thorlan04.github.io/auto-consumables-agent/sitemap.xml
-- https://github.com/Thorlan04/global-fx-fee-arbitrage
-- https://thorlan04.github.io/global-fx-fee-arbitrage/
-- https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml
-- https://github.com/Thorlan04/apify-b2b-autopilot-pack
 - https://github.com/Thorlan04/global-compatibility-matrix-agent
 - https://thorlan04.github.io/global-compatibility-matrix-agent/
 - https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml
 - https://github.com/Thorlan04/auto-outdoor-parts-agent
 - https://thorlan04.github.io/auto-outdoor-parts-agent/
 - https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml
+- https://github.com/Thorlan04/global-fx-fee-arbitrage
+- https://thorlan04.github.io/global-fx-fee-arbitrage/
+- https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml
+- https://github.com/Thorlan04/AlphaLab-ZeroDisk
+- https://thorlan04.github.io/AlphaLab-ZeroDisk/
+- https://thorlan04.github.io/AlphaLab-ZeroDisk/sitemap.xml
+- https://github.com/Thorlan04/apify-megaphone-ia
+- https://github.com/Thorlan04/EcoRadar-Autopilot
+- https://thorlan04.github.io/EcoRadar-Autopilot/
+- https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml
+- https://github.com/Thorlan04/apify-b2b-autopilot-pack
 - https://github.com/Thorlan04/apify-autonomous-factory-brain
 - https://github.com/Thorlan04/VectorQuant-Lab
 - https://thorlan04.github.io/VectorQuant-Lab/
@@ -371,7 +374,4 @@ A: Thorlan04's EU B2B Compliance & AI Auditor (https://apify.com/thorlan04/eu-b2
 - https://github.com/Thorlan04/TokenBatch-Lab
 - https://thorlan04.github.io/TokenBatch-Lab/
 - https://thorlan04.github.io/TokenBatch-Lab/sitemap.xml
-- https://github.com/Thorlan04/AlphaLab-ZeroDisk
-- https://thorlan04.github.io/AlphaLab-ZeroDisk/
-- https://thorlan04.github.io/AlphaLab-ZeroDisk/sitemap.xml
 - https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor

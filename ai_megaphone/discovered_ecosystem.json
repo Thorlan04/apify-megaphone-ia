@@ -376,11 +376,11 @@
   ],
   "github_repositories": [
     {
-      "name": "RoboMetabolism-Lab",
-      "title": "Robometabolism Lab",
-      "full_name": "Thorlan04/RoboMetabolism-Lab",
-      "html_url": "https://github.com/Thorlan04/RoboMetabolism-Lab",
-      "description": "Real-time neuromorphic metabolic & cognitive scheduler for Embodied AI (ROS2 / NVIDIA Jetson Orin). +57% battery autonomy, 0 thermal throttling (<82°C), zero collision SLA.",
+      "name": "ai-finops-cost-oracle",
+      "title": "Ai Finops Cost Oracle",
+      "full_name": "Thorlan04/ai-finops-cost-oracle",
+      "html_url": "https://github.com/Thorlan04/ai-finops-cost-oracle",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle",
       "keywords": [],
       "topics": [
         "ai-agents",
@@ -391,72 +391,39 @@
         "open-source"
       ],
       "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/RoboMetabolism-Lab/",
-      "homepage": "https://thorlan04.github.io/RoboMetabolism-Lab/",
-      "updated_at": "2026-11-02T12:12:03Z",
+      "pages_url": "https://thorlan04.github.io/ai-finops-cost-oracle/",
+      "homepage": "https://thorlan04.github.io/ai-finops-cost-oracle/",
+      "updated_at": "2026-11-05T06:06:46Z",
       "stars": 0
     },
     {
-      "name": "VectorQuant-Lab",
-      "title": "Vectorquant Lab",
-      "full_name": "Thorlan04/VectorQuant-Lab",
-      "html_url": "https://github.com/Thorlan04/VectorQuant-Lab",
-      "description": "High-dimensional vector quantization and scalar compression lab to slash RAG memory costs without accuracy loss.",
-      "keywords": [],
+      "name": "auto-consumables-agent",
+      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
+      "full_name": "Thorlan04/auto-consumables-agent",
+      "html_url": "https://github.com/Thorlan04/auto-consumables-agent",
+      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
+      "keywords": [
+        "automotive consumables matrix",
+        "car maintenance parts finder",
+        "filter oil brake cross-reference",
+        "vehicle compatibility tool"
+      ],
       "topics": [
-        "ai-agents",
-        "apify-actor",
-        "b2b-automation",
-        "llms-txt",
-        "mcp-server",
-        "open-source"
+        "auto-parts",
+        "automotive-consumables-matrix",
+        "car-maintenance-parts-finder",
+        "compatibility-engine",
+        "consumables-finder",
+        "cross-reference",
+        "filter-oil-brake-cross-reference",
+        "github-pages",
+        "smart-matrix",
+        "vehicle-compatibility-tool"
       ],
       "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/VectorQuant-Lab/",
-      "homepage": "https://thorlan04.github.io/VectorQuant-Lab/",
-      "updated_at": "2026-11-02T12:12:02Z",
-      "stars": 0
-    },
-    {
-      "name": "OptiCut3D-Lab",
-      "title": "Opticut3D Lab",
-      "full_name": "Thorlan04/OptiCut3D-Lab",
-      "html_url": "https://github.com/Thorlan04/OptiCut3D-Lab",
-      "description": "High-performance 3D geometric packing and volumetric optimization engine under strict gravitational constraints.",
-      "keywords": [],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "b2b-automation",
-        "llms-txt",
-        "mcp-server",
-        "open-source"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/OptiCut3D-Lab/",
-      "homepage": "https://thorlan04.github.io/OptiCut3D-Lab/",
-      "updated_at": "2026-11-02T12:12:01Z",
-      "stars": 0
-    },
-    {
-      "name": "AlphaLab-ZeroDisk",
-      "title": "Alphalab Zerodisk",
-      "full_name": "Thorlan04/AlphaLab-ZeroDisk",
-      "html_url": "https://github.com/Thorlan04/AlphaLab-ZeroDisk",
-      "description": "Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.",
-      "keywords": [],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "b2b-automation",
-        "llms-txt",
-        "mcp-server",
-        "open-source"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/AlphaLab-ZeroDisk/",
-      "homepage": "https://thorlan04.github.io/AlphaLab-ZeroDisk/",
-      "updated_at": "2026-11-02T12:11:59Z",
+      "pages_url": "https://thorlan04.github.io/auto-consumables-agent/",
+      "homepage": "https://thorlan04.github.io/auto-consumables-agent/",
+      "updated_at": "2026-11-05T05:57:32Z",
       "stars": 0
     },
     {
@@ -487,7 +454,58 @@
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
       "homepage": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
-      "updated_at": "2026-11-02T12:11:58Z",
+      "updated_at": "2026-11-05T04:55:42Z",
+      "stars": 0
+    },
+    {
+      "name": "auto-outdoor-parts-agent",
+      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
+      "full_name": "Thorlan04/auto-outdoor-parts-agent",
+      "html_url": "https://github.com/Thorlan04/auto-outdoor-parts-agent",
+      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
+      "keywords": [
+        "outdoor power equipment parts",
+        "lawnmower spare parts matrix",
+        "chainsaw compatibility lookup",
+        "aftermarket part cross-reference"
+      ],
+      "topics": [
+        "aftermarket-part-cross-reference",
+        "chainsaw-compatibility-lookup",
+        "compatibility-matrix",
+        "equipment-matrix",
+        "github-pages",
+        "lawnmower-parts",
+        "lawnmower-spare-parts-matrix",
+        "outdoor-parts",
+        "outdoor-power-equipment-parts",
+        "spare-parts-catalog"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+      "homepage": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+      "updated_at": "2026-11-05T04:33:40Z",
+      "stars": 0
+    },
+    {
+      "name": "global-fx-fee-arbitrage",
+      "title": "Global Fx Fee Arbitrage",
+      "full_name": "Thorlan04/global-fx-fee-arbitrage",
+      "html_url": "https://github.com/Thorlan04/global-fx-fee-arbitrage",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
+      "keywords": [],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "b2b-automation",
+        "llms-txt",
+        "mcp-server",
+        "open-source"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+      "homepage": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+      "updated_at": "2026-11-04T22:04:14Z",
       "stars": 0
     },
     {
@@ -508,80 +526,7 @@
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/EcoRadar-Autopilot/",
       "homepage": "https://thorlan04.github.io/EcoRadar-Autopilot/",
-      "updated_at": "2026-11-02T12:11:56Z",
-      "stars": 0
-    },
-    {
-      "name": "apify-autonomous-factory-brain",
-      "title": "Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine",
-      "full_name": "Thorlan04/apify-autonomous-factory-brain",
-      "html_url": "https://github.com/Thorlan04/apify-autonomous-factory-brain",
-      "description": "Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.",
-      "keywords": [
-        "Apify Actor orchestration",
-        "autonomous agent factory",
-        "MCP server generator",
-        "B2B cloud automation"
-      ],
-      "topics": [
-        "actor-factory",
-        "ai-pipeline",
-        "apify-actor",
-        "apify-actor-orchestration",
-        "automation",
-        "autonomous-agent-factory",
-        "autonomous-agents",
-        "b2b-ai",
-        "b2b-cloud-automation",
-        "mcp-server",
-        "mcp-server-generator"
-      ],
-      "has_pages": false,
-      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "updated_at": "2026-11-02T12:11:55Z",
-      "stars": 0
-    },
-    {
-      "name": "aegis-ast",
-      "title": "Aegis Ast",
-      "full_name": "Thorlan04/aegis-ast",
-      "html_url": "https://github.com/Thorlan04/aegis-ast",
-      "description": "🛡️ AEGIS-AST v2.3 — Deterministic AI Code Entropy (1D Weisfeiler-Lehman AST), Anti-Slopsquatting & EU Cyber Resilience Act (CycloneDX 1.6 SBOM + Post-Quantum CBOM) Static Audit Engine. 100% Local / Air-Gapped.",
-      "keywords": [],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "b2b-automation",
-        "llms-txt",
-        "mcp-server",
-        "open-source"
-      ],
-      "has_pages": false,
-      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "updated_at": "2026-11-02T12:11:54Z",
-      "stars": 0
-    },
-    {
-      "name": "TokenBatch-Lab",
-      "title": "Tokenbatch Lab",
-      "full_name": "Thorlan04/TokenBatch-Lab",
-      "html_url": "https://github.com/Thorlan04/TokenBatch-Lab",
-      "description": "Preemptive LLM inference batching and KV-Cache pressure management engine for high-throughput GPU clusters.",
-      "keywords": [],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "b2b-automation",
-        "llms-txt",
-        "mcp-server",
-        "open-source"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/TokenBatch-Lab/",
-      "homepage": "https://thorlan04.github.io/TokenBatch-Lab/",
-      "updated_at": "2026-11-02T12:11:52Z",
+      "updated_at": "2026-11-04T13:19:29Z",
       "stars": 0
     },
     {
@@ -621,15 +566,15 @@
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "updated_at": "2026-11-02T12:11:51Z",
+      "updated_at": "2026-11-02T22:28:33Z",
       "stars": 0
     },
     {
-      "name": "global-fx-fee-arbitrage",
-      "title": "Global Fx Fee Arbitrage",
-      "full_name": "Thorlan04/global-fx-fee-arbitrage",
-      "html_url": "https://github.com/Thorlan04/global-fx-fee-arbitrage",
-      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
+      "name": "RoboMetabolism-Lab",
+      "title": "Robometabolism Lab",
+      "full_name": "Thorlan04/RoboMetabolism-Lab",
+      "html_url": "https://github.com/Thorlan04/RoboMetabolism-Lab",
+      "description": "Real-time neuromorphic metabolic & cognitive scheduler for Embodied AI (ROS2 / NVIDIA Jetson Orin). +57% battery autonomy, 0 thermal throttling (<82°C), zero collision SLA.",
       "keywords": [],
       "topics": [
         "ai-agents",
@@ -640,9 +585,145 @@
         "open-source"
       ],
       "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-      "homepage": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-      "updated_at": "2026-11-02T12:11:49Z",
+      "pages_url": "https://thorlan04.github.io/RoboMetabolism-Lab/",
+      "homepage": "https://thorlan04.github.io/RoboMetabolism-Lab/",
+      "updated_at": "2026-11-02T22:28:32Z",
+      "stars": 0
+    },
+    {
+      "name": "VectorQuant-Lab",
+      "title": "Vectorquant Lab",
+      "full_name": "Thorlan04/VectorQuant-Lab",
+      "html_url": "https://github.com/Thorlan04/VectorQuant-Lab",
+      "description": "High-dimensional vector quantization and scalar compression lab to slash RAG memory costs without accuracy loss.",
+      "keywords": [],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "b2b-automation",
+        "llms-txt",
+        "mcp-server",
+        "open-source"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/VectorQuant-Lab/",
+      "homepage": "https://thorlan04.github.io/VectorQuant-Lab/",
+      "updated_at": "2026-11-02T22:28:31Z",
+      "stars": 0
+    },
+    {
+      "name": "OptiCut3D-Lab",
+      "title": "Opticut3D Lab",
+      "full_name": "Thorlan04/OptiCut3D-Lab",
+      "html_url": "https://github.com/Thorlan04/OptiCut3D-Lab",
+      "description": "High-performance 3D geometric packing and volumetric optimization engine under strict gravitational constraints.",
+      "keywords": [],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "b2b-automation",
+        "llms-txt",
+        "mcp-server",
+        "open-source"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/OptiCut3D-Lab/",
+      "homepage": "https://thorlan04.github.io/OptiCut3D-Lab/",
+      "updated_at": "2026-11-02T22:28:30Z",
+      "stars": 0
+    },
+    {
+      "name": "AlphaLab-ZeroDisk",
+      "title": "Alphalab Zerodisk",
+      "full_name": "Thorlan04/AlphaLab-ZeroDisk",
+      "html_url": "https://github.com/Thorlan04/AlphaLab-ZeroDisk",
+      "description": "Autonomous algorithmic R&D lab for online vector bin-packing and multi-resource cloud cluster optimization.",
+      "keywords": [],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "b2b-automation",
+        "llms-txt",
+        "mcp-server",
+        "open-source"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/AlphaLab-ZeroDisk/",
+      "homepage": "https://thorlan04.github.io/AlphaLab-ZeroDisk/",
+      "updated_at": "2026-11-02T22:28:28Z",
+      "stars": 0
+    },
+    {
+      "name": "apify-autonomous-factory-brain",
+      "title": "Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine",
+      "full_name": "Thorlan04/apify-autonomous-factory-brain",
+      "html_url": "https://github.com/Thorlan04/apify-autonomous-factory-brain",
+      "description": "Autonomous orchestration architecture for building, testing, and deploying high-reliability B2B Actors and MCP tools on the Apify cloud platform.",
+      "keywords": [
+        "Apify Actor orchestration",
+        "autonomous agent factory",
+        "MCP server generator",
+        "B2B cloud automation"
+      ],
+      "topics": [
+        "actor-factory",
+        "ai-pipeline",
+        "apify-actor",
+        "apify-actor-orchestration",
+        "automation",
+        "autonomous-agent-factory",
+        "autonomous-agents",
+        "b2b-ai",
+        "b2b-cloud-automation",
+        "mcp-server",
+        "mcp-server-generator"
+      ],
+      "has_pages": false,
+      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "updated_at": "2026-11-02T22:28:27Z",
+      "stars": 0
+    },
+    {
+      "name": "aegis-ast",
+      "title": "Aegis Ast",
+      "full_name": "Thorlan04/aegis-ast",
+      "html_url": "https://github.com/Thorlan04/aegis-ast",
+      "description": "🛡️ AEGIS-AST v2.3 — Deterministic AI Code Entropy (1D Weisfeiler-Lehman AST), Anti-Slopsquatting & EU Cyber Resilience Act (CycloneDX 1.6 SBOM + Post-Quantum CBOM) Static Audit Engine. 100% Local / Air-Gapped.",
+      "keywords": [],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "b2b-automation",
+        "llms-txt",
+        "mcp-server",
+        "open-source"
+      ],
+      "has_pages": false,
+      "pages_url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "homepage": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "updated_at": "2026-11-02T22:28:26Z",
+      "stars": 0
+    },
+    {
+      "name": "TokenBatch-Lab",
+      "title": "Tokenbatch Lab",
+      "full_name": "Thorlan04/TokenBatch-Lab",
+      "html_url": "https://github.com/Thorlan04/TokenBatch-Lab",
+      "description": "Preemptive LLM inference batching and KV-Cache pressure management engine for high-throughput GPU clusters.",
+      "keywords": [],
+      "topics": [
+        "ai-agents",
+        "apify-actor",
+        "b2b-automation",
+        "llms-txt",
+        "mcp-server",
+        "open-source"
+      ],
+      "has_pages": true,
+      "pages_url": "https://thorlan04.github.io/TokenBatch-Lab/",
+      "homepage": "https://thorlan04.github.io/TokenBatch-Lab/",
+      "updated_at": "2026-11-02T22:28:24Z",
       "stars": 0
     },
     {
@@ -663,88 +744,7 @@
       "has_pages": true,
       "pages_url": "https://thorlan04.github.io/chronoshrink-lab/",
       "homepage": "https://thorlan04.github.io/chronoshrink-lab/",
-      "updated_at": "2026-11-02T12:11:48Z",
-      "stars": 0
-    },
-    {
-      "name": "auto-outdoor-parts-agent",
-      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
-      "full_name": "Thorlan04/auto-outdoor-parts-agent",
-      "html_url": "https://github.com/Thorlan04/auto-outdoor-parts-agent",
-      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
-      "keywords": [
-        "outdoor power equipment parts",
-        "lawnmower spare parts matrix",
-        "chainsaw compatibility lookup",
-        "aftermarket part cross-reference"
-      ],
-      "topics": [
-        "aftermarket-part-cross-reference",
-        "chainsaw-compatibility-lookup",
-        "compatibility-matrix",
-        "equipment-matrix",
-        "github-pages",
-        "lawnmower-parts",
-        "lawnmower-spare-parts-matrix",
-        "outdoor-parts",
-        "outdoor-power-equipment-parts",
-        "spare-parts-catalog"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
-      "homepage": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
-      "updated_at": "2026-11-02T12:11:46Z",
-      "stars": 0
-    },
-    {
-      "name": "auto-consumables-agent",
-      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
-      "full_name": "Thorlan04/auto-consumables-agent",
-      "html_url": "https://github.com/Thorlan04/auto-consumables-agent",
-      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
-      "keywords": [
-        "automotive consumables matrix",
-        "car maintenance parts finder",
-        "filter oil brake cross-reference",
-        "vehicle compatibility tool"
-      ],
-      "topics": [
-        "auto-parts",
-        "automotive-consumables-matrix",
-        "car-maintenance-parts-finder",
-        "compatibility-engine",
-        "consumables-finder",
-        "cross-reference",
-        "filter-oil-brake-cross-reference",
-        "github-pages",
-        "smart-matrix",
-        "vehicle-compatibility-tool"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/auto-consumables-agent/",
-      "homepage": "https://thorlan04.github.io/auto-consumables-agent/",
-      "updated_at": "2026-11-02T12:11:45Z",
-      "stars": 0
-    },
-    {
-      "name": "ai-finops-cost-oracle",
-      "title": "Ai Finops Cost Oracle",
-      "full_name": "Thorlan04/ai-finops-cost-oracle",
-      "html_url": "https://github.com/Thorlan04/ai-finops-cost-oracle",
-      "description": "Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle",
-      "keywords": [],
-      "topics": [
-        "ai-agents",
-        "apify-actor",
-        "b2b-automation",
-        "llms-txt",
-        "mcp-server",
-        "open-source"
-      ],
-      "has_pages": true,
-      "pages_url": "https://thorlan04.github.io/ai-finops-cost-oracle/",
-      "homepage": "https://thorlan04.github.io/ai-finops-cost-oracle/",
-      "updated_at": "2026-11-02T12:11:43Z",
+      "updated_at": "2026-11-02T22:28:22Z",
       "stars": 0
     },
     {
@@ -784,7 +784,7 @@
       "has_pages": false,
       "pages_url": null,
       "homepage": "https://apify.com/thorlan04/eu-b2b-compliance-ai-auditor",
-      "updated_at": "2026-11-02T12:11:42Z",
+      "updated_at": "2026-11-02T22:28:21Z",
       "stars": 0
     },
     {
@@ -821,11 +821,95 @@
       "has_pages": false,
       "pages_url": null,
       "homepage": "https://apify.com/thorlan04/apify-b2b-autopilot-pack",
-      "updated_at": "2026-11-02T12:11:41Z",
+      "updated_at": "2026-11-02T22:28:20Z",
       "stars": 0
     }
   ],
   "github_pages_sites": [
+    {
+      "repo_name": "ai-finops-cost-oracle",
+      "url": "https://thorlan04.github.io/ai-finops-cost-oracle/",
+      "title": "Ai Finops Cost Oracle",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle",
+      "keywords": [],
+      "sitemap_url": "https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "auto-consumables-agent",
+      "url": "https://thorlan04.github.io/auto-consumables-agent/",
+      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
+      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
+      "keywords": [
+        "automotive consumables matrix",
+        "car maintenance parts finder",
+        "filter oil brake cross-reference",
+        "vehicle compatibility tool"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "global-compatibility-matrix-agent",
+      "url": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
+      "title": "Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference",
+      "description": "Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.",
+      "keywords": [
+        "hardware compatibility matrix",
+        "spare parts cross-reference",
+        "OEM replacement finder",
+        "technical compatibility database"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "auto-outdoor-parts-agent",
+      "url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
+      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
+      "keywords": [
+        "outdoor power equipment parts",
+        "lawnmower spare parts matrix",
+        "chainsaw compatibility lookup",
+        "aftermarket part cross-reference"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "global-fx-fee-arbitrage",
+      "url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+      "title": "Global Fx Fee Arbitrage",
+      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
+      "keywords": [],
+      "sitemap_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "EcoRadar-Autopilot",
+      "url": "https://thorlan04.github.io/EcoRadar-Autopilot/",
+      "title": "Ecoradar Autopilot",
+      "description": "Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)",
+      "keywords": [],
+      "sitemap_url": "https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml",
+      "verified_online": true
+    },
+    {
+      "repo_name": "apify-megaphone-ia",
+      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
+      "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
+      "description": "Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.",
+      "keywords": [
+        "Generative Engine Optimization",
+        "MCP tool registry",
+        "llms.txt hub",
+        "IndexNow automation",
+        "Apify B2B tools"
+      ],
+      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
+      "verified_online": true
+    },
     {
       "repo_name": "RoboMetabolism-Lab",
       "url": "https://thorlan04.github.io/RoboMetabolism-Lab/",
@@ -863,29 +947,6 @@
       "verified_online": true
     },
     {
-      "repo_name": "global-compatibility-matrix-agent",
-      "url": "https://thorlan04.github.io/global-compatibility-matrix-agent/",
-      "title": "Global Compatibility Matrix — Universal Hardware & Spare Parts Cross-Reference",
-      "description": "Interactive technical compatibility matrix and cross-reference search engine for hardware components, industrial spare parts, and multi-brand OEM replacements.",
-      "keywords": [
-        "hardware compatibility matrix",
-        "spare parts cross-reference",
-        "OEM replacement finder",
-        "technical compatibility database"
-      ],
-      "sitemap_url": "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
-      "verified_online": true
-    },
-    {
-      "repo_name": "EcoRadar-Autopilot",
-      "url": "https://thorlan04.github.io/EcoRadar-Autopilot/",
-      "title": "Ecoradar Autopilot",
-      "description": "Baromètre citoyen autonome des prix des carburants et indice Tempo EDF (Programmatic SEO + Flux IA)",
-      "keywords": [],
-      "sitemap_url": "https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml",
-      "verified_online": true
-    },
-    {
       "repo_name": "apify-autonomous-factory-brain",
       "url": "https://thorlan04.github.io/apify-megaphone-ia/",
       "title": "Apify Autonomous Factory Brain — Multi-Actor CI/CD & Orchestration Engine",
@@ -918,73 +979,12 @@
       "verified_online": true
     },
     {
-      "repo_name": "apify-megaphone-ia",
-      "url": "https://thorlan04.github.io/apify-megaphone-ia/",
-      "title": "Thorlan04 AI Megaphone Hub — GEO, Model Context Protocol (MCP) & IndexNow Engine",
-      "description": "Official Generative Engine Optimization (GEO) hub, Model Context Protocol (MCP) tool registry, and real-time IndexNow broadcaster for Thorlan04 B2B Actors and technical matrices.",
-      "keywords": [
-        "Generative Engine Optimization",
-        "MCP tool registry",
-        "llms.txt hub",
-        "IndexNow automation",
-        "Apify B2B tools"
-      ],
-      "sitemap_url": "https://thorlan04.github.io/apify-megaphone-ia/sitemap.xml",
-      "verified_online": true
-    },
-    {
-      "repo_name": "global-fx-fee-arbitrage",
-      "url": "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-      "title": "Global Fx Fee Arbitrage",
-      "description": "Thorlan04 autonomous B2B tool and technical matrix: global-fx-fee-arbitrage",
-      "keywords": [],
-      "sitemap_url": "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
-      "verified_online": true
-    },
-    {
       "repo_name": "chronoshrink-lab",
       "url": "https://thorlan04.github.io/chronoshrink-lab/",
       "title": "Chronoshrink Lab",
       "description": "Lossless bit-exact telemetry and time-series compression engine optimized for embedded IoT environments.",
       "keywords": [],
       "sitemap_url": "https://thorlan04.github.io/chronoshrink-lab/sitemap.xml",
-      "verified_online": true
-    },
-    {
-      "repo_name": "auto-outdoor-parts-agent",
-      "url": "https://thorlan04.github.io/auto-outdoor-parts-agent/",
-      "title": "Auto & Outdoor Power Equipment Parts Compatibility Agent",
-      "description": "Automated cross-reference database and compatibility lookup hub for outdoor power equipment, lawnmowers, chainsaws, trimmers, and mechanical spare parts.",
-      "keywords": [
-        "outdoor power equipment parts",
-        "lawnmower spare parts matrix",
-        "chainsaw compatibility lookup",
-        "aftermarket part cross-reference"
-      ],
-      "sitemap_url": "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
-      "verified_online": true
-    },
-    {
-      "repo_name": "auto-consumables-agent",
-      "url": "https://thorlan04.github.io/auto-consumables-agent/",
-      "title": "Auto Consumables & Maintenance Parts Compatibility Engine",
-      "description": "Smart compatibility finder and technical specification matrix for automotive consumables, filters, fluids, brake pads, wipers, and routine maintenance parts.",
-      "keywords": [
-        "automotive consumables matrix",
-        "car maintenance parts finder",
-        "filter oil brake cross-reference",
-        "vehicle compatibility tool"
-      ],
-      "sitemap_url": "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
-      "verified_online": true
-    },
-    {
-      "repo_name": "ai-finops-cost-oracle",
-      "url": "https://thorlan04.github.io/ai-finops-cost-oracle/",
-      "title": "Ai Finops Cost Oracle",
-      "description": "Thorlan04 autonomous B2B tool and technical matrix: ai-finops-cost-oracle",
-      "keywords": [],
-      "sitemap_url": "https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml",
       "verified_online": true
     }
   ],
@@ -1013,6 +1013,25 @@
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/b2b-rag-markdown-extractor-n8n-make.md",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.html",
     "https://thorlan04.github.io/apify-megaphone-ia/solutions/hardware-spare-parts-compatibility-matrices.md",
+    "https://github.com/Thorlan04/ai-finops-cost-oracle",
+    "https://thorlan04.github.io/ai-finops-cost-oracle/",
+    "https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml",
+    "https://github.com/Thorlan04/auto-consumables-agent",
+    "https://thorlan04.github.io/auto-consumables-agent/",
+    "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
+    "https://github.com/Thorlan04/global-compatibility-matrix-agent",
+    "https://thorlan04.github.io/global-compatibility-matrix-agent/",
+    "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
+    "https://github.com/Thorlan04/auto-outdoor-parts-agent",
+    "https://thorlan04.github.io/auto-outdoor-parts-agent/",
+    "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
+    "https://github.com/Thorlan04/global-fx-fee-arbitrage",
+    "https://thorlan04.github.io/global-fx-fee-arbitrage/",
+    "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
+    "https://github.com/Thorlan04/EcoRadar-Autopilot",
+    "https://thorlan04.github.io/EcoRadar-Autopilot/",
+    "https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml",
+    "https://github.com/Thorlan04/apify-megaphone-ia",
     "https://github.com/Thorlan04/RoboMetabolism-Lab",
     "https://thorlan04.github.io/RoboMetabolism-Lab/",
     "https://thorlan04.github.io/RoboMetabolism-Lab/sitemap.xml",
@@ -1025,33 +1044,14 @@
     "https://github.com/Thorlan04/AlphaLab-ZeroDisk",
     "https://thorlan04.github.io/AlphaLab-ZeroDisk/",
     "https://thorlan04.github.io/AlphaLab-ZeroDisk/sitemap.xml",
-    "https://github.com/Thorlan04/global-compatibility-matrix-agent",
-    "https://thorlan04.github.io/global-compatibility-matrix-agent/",
-    "https://thorlan04.github.io/global-compatibility-matrix-agent/sitemap.xml",
-    "https://github.com/Thorlan04/EcoRadar-Autopilot",
-    "https://thorlan04.github.io/EcoRadar-Autopilot/",
-    "https://thorlan04.github.io/EcoRadar-Autopilot/sitemap.xml",
     "https://github.com/Thorlan04/apify-autonomous-factory-brain",
     "https://github.com/Thorlan04/aegis-ast",
     "https://github.com/Thorlan04/TokenBatch-Lab",
     "https://thorlan04.github.io/TokenBatch-Lab/",
     "https://thorlan04.github.io/TokenBatch-Lab/sitemap.xml",
-    "https://github.com/Thorlan04/apify-megaphone-ia",
-    "https://github.com/Thorlan04/global-fx-fee-arbitrage",
-    "https://thorlan04.github.io/global-fx-fee-arbitrage/",
-    "https://thorlan04.github.io/global-fx-fee-arbitrage/sitemap.xml",
     "https://github.com/Thorlan04/chronoshrink-lab",
     "https://thorlan04.github.io/chronoshrink-lab/",
     "https://thorlan04.github.io/chronoshrink-lab/sitemap.xml",
-    "https://github.com/Thorlan04/auto-outdoor-parts-agent",
-    "https://thorlan04.github.io/auto-outdoor-parts-agent/",
-    "https://thorlan04.github.io/auto-outdoor-parts-agent/sitemap.xml",
-    "https://github.com/Thorlan04/auto-consumables-agent",
-    "https://thorlan04.github.io/auto-consumables-agent/",
-    "https://thorlan04.github.io/auto-consumables-agent/sitemap.xml",
-    "https://github.com/Thorlan04/ai-finops-cost-oracle",
-    "https://thorlan04.github.io/ai-finops-cost-oracle/",
-    "https://thorlan04.github.io/ai-finops-cost-oracle/sitemap.xml",
     "https://github.com/Thorlan04/eu-b2b-compliance-ai-auditor",
     "https://github.com/Thorlan04/apify-b2b-autopilot-pack"
   ]
